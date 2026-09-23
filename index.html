@@ -3,500 +3,292 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Phoenix Pool Cleaning Pro | Pool Service & Maintenance</title>
-<meta name="description" content="Professional pool cleaning and maintenance services across the Phoenix metro. Weekly service, algae treatment, equipment repair, and chemical balancing. Get a free quote today.">
+<title>Phoenix Pool Cleaning Pro — Pool Service, Repair &amp; Maintenance</title>
+<meta name="description" content="Pool cleaning, repair, and maintenance across the Phoenix metro. Weekly service with chemicals included. One flat monthly price for pools in the hardest water in Arizona.">
+<link rel="canonical" href="https://phoenixpoolcleaningpro.com/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --sky:#0ea5e9;
-  --sky-deep:#0369a1;
-  --aqua:#06b6d4;
-  --pool:#0284c7;
-  --sand:#f0a500;
-  --sand2:#fbbf24;
-  --white:#ffffff;
-  --off:#f0f9ff;
-  --dark:#0c1a2e;
-  --navy:#0f2744;
-  --mid:#475569;
-  --light:#e0f2fe;
-  --ff-display:'Syne',sans-serif;
-  --ff-body:'Inter',sans-serif;
+  --brand:#1a4d7a;--accent:#e6a14c;--dark:#0c1a2e;--light:#f5f8fb;
+  --text:#1e2d3d;--muted:#5a6a7a;--sand:#e8eef4;--rule:#c6d2de;
+  --serif:'DM Serif Display',Georgia,serif;
+  --sans:'DM Sans','Segoe UI',system-ui,sans-serif;
 }
-html{scroll-behavior:smooth}
-body{font-family:var(--ff-body);background:var(--white);color:var(--dark);overflow-x:hidden}
+html{font-size:18px;scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--text);background:var(--light);line-height:1.7}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;height:auto;display:block}
 
-/* NAV */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(12,26,46,0.96);backdrop-filter:blur(12px);padding:0 48px;display:flex;align-items:center;justify-content:space-between;height:68px;border-bottom:1px solid rgba(14,165,233,0.2)}
-.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
-.nav-logo-icon{font-size:1.6em}
-.nav-logo-text{font-family:var(--ff-display);font-size:1.1em;font-weight:800;color:var(--white);letter-spacing:-0.5px}
-.nav-logo-text span{color:var(--sky)}
-.nav-links{display:flex;gap:28px;align-items:center}
-.nav-links a{color:rgba(255,255,255,0.65);text-decoration:none;font-size:0.85em;font-weight:500;transition:color 0.2s}
-.nav-links a:hover{color:var(--sky)}
-.nav-cta{background:var(--sky);color:var(--white);padding:10px 22px;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.85em;transition:all 0.2s}
-.nav-cta:hover{background:var(--pool)}
+.site-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(12,26,46,.94);backdrop-filter:blur(6px);padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:space-between}
+.site-nav .logo{color:#fff;font-family:var(--serif);font-size:1.15rem}
+.site-nav .logo span{color:var(--accent)}
+.site-nav .phone{color:var(--accent);font-weight:600;font-size:.95rem}
+.site-nav .phone:hover{color:#fff}
 
-/* HERO */
-.hero{min-height:560px;height:auto;position:relative;display:flex;align-items:center;overflow:hidden;background:var(--dark);padding-top:68px}
-.hero-bg{position:absolute;inset:0;background-image:url('/images/img-01.jpg');background-size:cover;background-position:center}
-.hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,26,46,0.85) 0%,rgba(12,26,46,0.5) 60%,rgba(12,26,46,0.2) 100%)}
-.hero-pool{position:absolute;bottom:0;left:0;right:0;height:280px;background:linear-gradient(180deg,transparent 0%,rgba(6,182,212,0.12) 40%,rgba(2,132,199,0.25) 100%)}
-.hero-waves{position:absolute;bottom:0;left:0;right:0;height:120px;overflow:hidden}
-.hero-waves svg{width:100%;height:100%}
-.hero-content{position:relative;z-index:2;max-width:1200px;margin:0 auto;width:100%;padding:72px 48px 96px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.hero-left{}
-.hero-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(14,165,233,0.3);border:1px solid rgba(14,165,233,0.6);color:var(--white);padding:7px 18px;border-radius:100px;font-size:0.78em;font-weight:700;letter-spacing:1px;margin-bottom:24px;text-shadow:0 1px 4px rgba(0,0,0,0.5);backdrop-filter:blur(4px)}
-.hero h1{font-family:var(--ff-display);font-size:clamp(2.8em,5vw,4.2em);color:var(--white);line-height:1.0;margin-bottom:20px;font-weight:800;letter-spacing:-1px;text-shadow:0 2px 16px rgba(0,0,0,0.7)}
-.hero h1 em{color:var(--sky);font-style:normal;display:block}
-.hero-sub{font-size:1.05em;color:var(--white);max-width:480px;line-height:1.75;margin-bottom:36px;font-weight:400;background:rgba(0,0,0,0.4);padding:14px 18px;border-radius:10px;backdrop-filter:blur(4px);border-left:3px solid var(--sky)}
-.hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:48px}
-.btn-sky{background:var(--sky);color:var(--white);padding:15px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:0.95em;transition:all 0.2s;box-shadow:0 4px 24px rgba(14,165,233,0.4)}
-.btn-sky:hover{background:var(--pool);transform:translateY(-2px)}
-.btn-ghost{background:transparent;color:var(--white);padding:15px 36px;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.95em;border:2px solid rgba(255,255,255,0.2);transition:all 0.2s}
-.btn-ghost:hover{border-color:var(--sky);color:var(--sky)}
-.hero-trust{display:flex;gap:24px;flex-wrap:wrap}
-.trust-item{display:flex;align-items:center;gap:8px;font-size:0.85em;color:rgba(255,255,255,0.95);background:rgba(0,0,0,0.35);padding:6px 12px;border-radius:6px;backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,0.1)}
-.trust-icon{color:var(--sand);font-size:1em}
+.hero{position:relative;min-height:80vh;display:flex;align-items:center;overflow:hidden}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-fade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,26,46,.85) 0%,rgba(12,26,46,.65) 40%,rgba(12,26,46,.15) 100%)}
+.hero-content{position:relative;z-index:2;max-width:620px;padding:7rem 2rem 5rem}
+.hero h1{font-family:var(--serif);font-size:clamp(2.2rem,5.5vw,3.2rem);color:#fff;line-height:1.12;margin-bottom:1.25rem}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:rgba(255,255,255,.88);font-size:1.1rem;line-height:1.7;margin-bottom:1.75rem}
+.hero .cta{display:inline-block;background:var(--accent);color:var(--dark);font-weight:600;padding:.85rem 2rem;border-radius:4px;font-size:1.05rem;transition:background .2s}
+.hero .cta:hover{background:#d4952e;text-decoration:none}
 
-/* HERO RIGHT - Pool Visual */
-.hero-right{position:relative}
-.pool-visual{background:linear-gradient(135deg,rgba(14,165,233,0.15),rgba(6,182,212,0.08));border:1px solid rgba(14,165,233,0.2);border-radius:20px;padding:32px;position:relative;overflow:hidden}
-.pool-visual::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(14,165,233,0.08) 0%,transparent 60%);animation:shimmer 4s ease-in-out infinite}
-@keyframes shimmer{0%,100%{transform:translate(0,0)}50%{transform:translate(10px,-10px)}}
-.pool-stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
-.pool-stat{background:rgba(255,255,255,0.05);border:1px solid rgba(14,165,233,0.2);border-radius:12px;padding:20px;text-align:center}
-.pool-stat-num{font-family:var(--ff-display);font-size:2em;font-weight:800;color:var(--sky);line-height:1;letter-spacing:-1px}
-.pool-stat-label{font-size:0.72em;color:rgba(255,255,255,0.8);margin-top:4px;letter-spacing:1px;text-transform:uppercase}
-.pool-service-list{display:flex;flex-direction:column;gap:10px}
-.pool-service-item{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,0.04);border-radius:8px;padding:12px 16px;border:1px solid rgba(14,165,233,0.1)}
-.pool-service-check{color:var(--sky);font-size:1em;flex-shrink:0}
-.pool-service-text{font-size:0.88em;color:rgba(255,255,255,0.95);font-weight:500}
+.content-wrap{max-width:760px;margin:0 auto;padding:3rem 1.5rem}
+.content-wrap h2{font-family:var(--serif);font-size:1.6rem;color:var(--brand);margin:2.5rem 0 .75rem;line-height:1.25}
+.content-wrap h3{font-family:var(--sans);font-weight:600;font-size:1.15rem;color:var(--dark);margin:2rem 0 .5rem}
+.content-wrap p{margin-bottom:1.25rem}
 
-/* MARQUEE */
-.marquee{background:linear-gradient(90deg,var(--sky-deep),var(--aqua),var(--sky-deep));padding:13px 0;overflow:hidden;white-space:nowrap}
-.marquee-inner{display:inline-block;animation:scroll 25s linear infinite;font-size:0.78em;letter-spacing:3px;text-transform:uppercase;color:var(--white);font-weight:600}
-@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.content-wrap figure{margin:2.5rem 0;border-radius:6px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.content-wrap figure img{width:100%;height:auto}
+.content-wrap figcaption{background:var(--sand);padding:.65rem 1rem;font-size:.85rem;color:var(--muted);line-height:1.5}
 
-/* SECTIONS */
-section{padding:88px 48px}
-.section-inner{max-width:1200px;margin:0 auto}
-.eyebrow{font-size:0.72em;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--sky);margin-bottom:12px}
-.section-title{font-family:var(--ff-display);font-size:clamp(1.8em,3vw,2.6em);color:var(--dark);margin-bottom:16px;letter-spacing:-0.5px;font-weight:800}
-.section-sub{color:var(--mid);font-size:1em;line-height:1.75;max-width:580px;margin-bottom:48px}
+.services-section{background:var(--sand);padding:3.5rem 1.5rem}
+.services-inner{max-width:760px;margin:0 auto}
+.services-inner h2{font-family:var(--serif);font-size:1.6rem;color:var(--brand);margin-bottom:1.5rem}
+.service-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.service-link{background:var(--light);border:1px solid var(--rule);border-radius:8px;padding:1.25rem 1.5rem;transition:border-color .2s,box-shadow .2s;text-decoration:none;display:block}
+.service-link:hover{border-color:var(--accent);box-shadow:0 4px 16px rgba(0,0,0,.06);text-decoration:none}
+.service-link h3{font-family:var(--sans);font-weight:600;font-size:1rem;color:var(--dark);margin-bottom:.35rem}
+.service-link p{font-size:.85rem;color:var(--muted);margin:0;line-height:1.5}
 
-/* SERVICES */
-.services{background:var(--off)}
-.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-.service-card{background:var(--white);border-radius:16px;padding:32px;border:1px solid #e0f2fe;transition:all 0.25s;position:relative;overflow:hidden}
-.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--sky),var(--aqua))}
-.service-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(14,165,233,0.15);border-color:var(--sky)}
-.service-icon{font-size:2.2em;margin-bottom:16px;display:block}
-.service-name{font-family:var(--ff-display);font-size:1.1em;color:var(--dark);margin-bottom:10px;font-weight:700}
-.service-desc{color:var(--mid);font-size:0.88em;line-height:1.7;margin-bottom:16px}
-.service-price{color:var(--sky);font-weight:700;font-size:0.88em;display:flex;align-items:center;gap:6px}
+.faq-section{background:var(--light);padding:3rem 1.5rem}
+.faq-inner{max-width:760px;margin:0 auto}
+.faq-inner h2{font-family:var(--serif);font-size:1.6rem;color:var(--brand);margin-bottom:1.5rem}
+.faq-item{border-bottom:1px solid var(--rule);padding:1.25rem 0}
+.faq-item:last-child{border-bottom:none}
+.faq-item h3{font-family:var(--sans);font-weight:600;font-size:1rem;color:var(--dark);margin-bottom:.5rem}
+.faq-item p{color:var(--text);margin:0;font-size:.95rem;line-height:1.65}
 
-/* WHY */
-.why{background:var(--white)}
-.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.why-content{}
-.why-list{display:flex;flex-direction:column;gap:20px;margin-top:32px}
-.why-item{display:flex;gap:16px;align-items:flex-start}
-.why-icon-wrap{width:48px;height:48px;background:linear-gradient(135deg,var(--sky),var(--aqua));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.2em;flex-shrink:0}
-.why-text strong{display:block;color:var(--dark);font-weight:600;margin-bottom:4px;font-size:0.95em}
-.why-text span{color:var(--mid);font-size:0.85em;line-height:1.65}
-.why-visual{background:linear-gradient(135deg,var(--navy),var(--pool));border-radius:20px;padding:40px;color:var(--white)}
-.why-visual-title{font-family:var(--ff-display);font-size:1.3em;font-weight:800;margin-bottom:24px;color:var(--sky)}
-.why-stats{display:flex;flex-direction:column;gap:16px}
-.why-stat-row{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08)}
-.why-stat-row:last-child{border-bottom:none}
-.why-stat-label{font-size:0.85em;color:rgba(255,255,255,0.6)}
-.why-stat-val{font-family:var(--ff-display);font-size:1.4em;font-weight:800;color:var(--sky)}
+.cta-band{background:var(--brand);padding:3rem 1.5rem;text-align:center}
+.cta-band h2{font-family:var(--serif);color:#fff;font-size:1.5rem;margin-bottom:.75rem}
+.cta-band p{color:rgba(255,255,255,.85);margin-bottom:1.25rem;max-width:540px;margin-left:auto;margin-right:auto}
+.cta-band a{display:inline-block;background:var(--accent);color:var(--dark);font-weight:600;padding:.75rem 2rem;border-radius:4px}
+.cta-band a:hover{background:#d4952e;text-decoration:none}
 
-/* SERVICE AREAS */
-.areas{background:var(--off)}
-.areas-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin-top:40px}
-.area-chip{background:var(--white);border:1px solid #bae6fd;border-radius:8px;padding:12px 16px;display:flex;align-items:center;gap:8px;font-size:0.85em;font-weight:500;color:var(--navy);transition:all 0.2s}
-.area-chip:hover{background:var(--sky);color:var(--white);border-color:var(--sky)}
-.area-dot{width:6px;height:6px;border-radius:50%;background:var(--sky);flex-shrink:0}
+.site-footer{background:var(--dark);color:rgba(255,255,255,.6);padding:2rem 1.5rem;text-align:center;font-size:.85rem}
+.site-footer a{color:var(--accent)}
 
-/* REVIEWS */
-.reviews{background:var(--white)}
-.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-top:48px}
-.review-card{background:var(--off);border-radius:16px;padding:28px;border:1px solid #e0f2fe}
-.stars{color:var(--sand);font-size:1em;margin-bottom:12px;letter-spacing:2px}
-.review-text{color:var(--mid);font-size:0.9em;line-height:1.75;margin-bottom:16px;font-style:italic}
-.reviewer{color:var(--navy);font-weight:700;font-size:0.85em}
-.reviewer span{color:var(--sky);font-weight:400;font-size:0.9em}
-
-/* CTA */
-.cta-section{background:linear-gradient(135deg,var(--navy) 0%,var(--pool) 100%);padding:88px 48px;text-align:center;position:relative;overflow:hidden}
-.cta-section::before{content:'☀️';position:absolute;font-size:30vw;opacity:0.04;top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none}
-.cta-section h2{font-family:var(--ff-display);font-size:clamp(2em,4vw,3em);color:var(--white);margin-bottom:16px;letter-spacing:-1px;font-weight:800;position:relative}
-.cta-section p{font-size:1.05em;color:rgba(255,255,255,0.65);max-width:500px;margin:0 auto 36px;line-height:1.75;position:relative}
-.btn-sand{background:var(--sand);color:var(--dark);padding:16px 44px;border-radius:8px;text-decoration:none;font-weight:700;font-size:1em;display:inline-block;transition:all 0.2s;box-shadow:0 4px 24px rgba(240,165,0,0.4);position:relative}
-.btn-sand:hover{background:var(--sand2);transform:translateY(-2px)}
-
-/* JESSE QUOTE */
-.quote-bar{background:var(--dark);padding:20px 48px;text-align:center}
-.quote-bar p{color:rgba(255,255,255,0.5);font-size:0.82em;font-style:italic}
-.quote-bar strong{color:var(--sky)}
-
-footer{background:#060f1e;padding:48px 48px 28px;text-align:center;border-top:1px solid rgba(14,165,233,0.1)}
-.footer-logo{font-family:var(--ff-display);font-size:1.4em;font-weight:800;color:var(--sky);margin-bottom:12px}
-.footer-links{display:flex;gap:20px;justify-content:center;margin-bottom:16px;flex-wrap:wrap}
-.footer-links a{color:rgba(255,255,255,0.35);text-decoration:none;font-size:0.82em;transition:color 0.2s}
-.footer-links a:hover{color:var(--sky)}
-.footer-copy{font-size:0.75em;color:rgba(255,255,255,0.18)}
-
-@media(max-width:900px){
-  nav{padding:0 20px}.nav-links{display:none}
-  .hero-content{grid-template-columns:1fr;padding:48px 24px 72px;gap:40px}
-  .hero-right{display:none}
-  .why-grid{grid-template-columns:1fr}
-  section{padding:64px 24px}
-  .cta-section{padding:64px 24px}
-  footer{padding:40px 24px 24px}
-  .quote-bar{padding:20px 24px}
+@media(max-width:640px){
+  .hero-content{padding:5rem 1.25rem 3rem}
+  .hero-fade{background:linear-gradient(180deg,rgba(12,26,46,.78) 0%,rgba(12,26,46,.55) 60%,rgba(12,26,46,.2) 100%)}
+  .content-wrap{padding:2rem 1.25rem}
+  .service-grid{grid-template-columns:1fr}
 }
-.scripture-bar{background:#0a0a12;border-bottom:1px solid rgba(201,168,76,.25);padding:7px 22px;font-family:system-ui,-apple-system,sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;color:#c9a84c}
-body{padding-top:34px}.scripture-bar{position:fixed;top:0;left:0;right:0;z-index:9999;background:#0a0a12;border-bottom:1px solid rgba(201,168,76,.25);padding:7px 22px;font-family:system-ui,-apple-system,sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;color:#c9a84c}nav{top:34px !important}
 </style>
 
-<link rel="canonical" href="https://phoenixpoolcleaningpro.com/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="/favicon.svg">
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://phoenixpoolcleaningpro.com/#business",
-  "name": "Phoenix Pool Cleaning Pro",
-  "description": "Professional pool cleaning and maintenance services across Phoenix, AZ and surrounding communities. Weekly service, algae treatment, chemical balancing, and equipment repair.",
-  "url": "https://phoenixpoolcleaningpro.com/",
-  "telephone": "623-240-0428",
-  "priceRange": "$$",
-  "openingHours": "Mo-Sa 07:00-18:00",
-  "serviceType": "Pool Cleaning",
-  "areaServed": [
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
     {
-      "@type": "City",
-      "name": "Phoenix",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Scottsdale",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Mesa",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Chandler",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Gilbert",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Tempe",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Glendale",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Peoria",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Surprise",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Goodyear",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Avondale",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Buckeye",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Maricopa",
-      "addressRegion": "AZ"
-    },
-    {
-      "@type": "City",
-      "name": "Apache Junction",
-      "addressRegion": "AZ"
-    }
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Phoenix",
-    "addressRegion": "AZ",
-    "addressCountry": "US"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 33.4484,
-    "longitude": -112.074
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Pool Services",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Weekly Pool Cleaning"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Pool Chemical Balancing"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Algae Treatment"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Pool Equipment Repair"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Pool Inspection"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Pool Opening and Closing"
-        }
+      "@type":"Question",
+      "name":"What areas in Phoenix do you serve?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"We service pools across the Phoenix metro — North Phoenix, Scottsdale, Mesa, Gilbert, Chandler, Glendale, Peoria, Surprise, and surrounding Maricopa County communities. If you are in the Valley and have a pool, we can reach you."
       }
-    ]
-  }
+    },
+    {
+      "@type":"Question",
+      "name":"Why is pool maintenance more demanding in Phoenix?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Phoenix tap water runs 300 to 900 parts per million calcium hardness depending on your neighborhood — far above the 200 ppm ceiling equipment manufacturers recommend. That calcium scales heaters, salt cells, and tile faster than anywhere else in the state. Add year-round pool season, summer highs above 115 degrees, and monsoon dust storms, and equipment and chemistry both need more attention than in milder climates."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"What is included in weekly pool service?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Every visit includes skimming, brushing walls and tile, vacuuming, emptying baskets, testing and adjusting water chemistry, checking filter pressure, and inspecting equipment. All routine chemicals — chlorine, acid, stabilizer — are included in the monthly price."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Do you repair pool equipment or just clean?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Both. We repair pumps, motors, filters, heaters, salt cells, lights, and plumbing leaks. Most cleaning customers call us first when something breaks because we already know their pool. Repairs are quoted separately and you see the price before work starts."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"How much does weekly pool service cost in Phoenix?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Monthly pricing depends on pool size, spa, and sanitization type. Call with your address and we will give you a flat monthly price over the phone. Chemicals are included. No per-visit charges, no seasonal surcharges."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Phoenix Pool Cleaning Pro",
+  "description":"Pool cleaning, repair, and maintenance across the Phoenix metro. Weekly service, equipment repair, tile cleaning, and chemical balancing.",
+  "url":"https://phoenixpoolcleaningpro.com",
+  "telephone":"+1-623-240-0428",
+  "areaServed":[
+    {"@type":"City","name":"Phoenix","containedInPlace":{"@type":"State","name":"Arizona"}},
+    {"@type":"City","name":"Scottsdale","containedInPlace":{"@type":"State","name":"Arizona"}},
+    {"@type":"City","name":"Mesa","containedInPlace":{"@type":"State","name":"Arizona"}},
+    {"@type":"City","name":"Gilbert","containedInPlace":{"@type":"State","name":"Arizona"}},
+    {"@type":"City","name":"Chandler","containedInPlace":{"@type":"State","name":"Arizona"}},
+    {"@type":"City","name":"Glendale","containedInPlace":{"@type":"State","name":"Arizona"}},
+    {"@type":"City","name":"Peoria","containedInPlace":{"@type":"State","name":"Arizona"}},
+    {"@type":"City","name":"Surprise","containedInPlace":{"@type":"State","name":"Arizona"}}
+  ],
+  "serviceType":["Pool Cleaning","Pool Repair","Pool Maintenance","Pool Tile Cleaning","Pool Pump Repair"]
 }
 </script>
 </head>
 <body>
-<div class="scripture-bar"><span>John 3:16</span></div>
 
-<nav>
-  <a href="/" class="nav-logo">
-    <span class="nav-logo-icon">🏊</span>
-    <span class="nav-logo-text">Phoenix Pool <span>Cleaning Pro</span></span>
-  </a>
-  <div class="nav-links">
-    <a href="#services">Services</a>
-    <a href="#areas">Service Areas</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#quote" class="nav-cta">Free Quote</a>
-  </div>
+<nav class="site-nav" role="navigation" aria-label="Main navigation">
+  <div class="logo">Phoenix <span>Pool Cleaning Pro</span></div>
+  <a class="phone" href="tel:+16232400428">(623) 240-0428</a>
 </nav>
 
-<!-- HERO -->
-<div class="hero" id="home">
-  <div class="hero-bg"></div>
-  <div class="hero-pool"></div>
+<section class="hero">
+  <img class="hero-img" src="/images/phoenix-home-hero.jpg" alt="Sparkling residential swimming pool in Phoenix with palm trees, Camelback Mountain in the distance, and bright Arizona sunshine" width="1600" height="900" loading="eager">
+  <div class="hero-fade"></div>
   <div class="hero-content">
-    <div class="hero-left">
-      <div class="hero-tag">🌞 Phoenix's Pool Cleaning Experts</div>
-      <h1>Crystal Clear<em>Pools. All Year.</em></h1>
-      <p class="hero-sub">Phoenix's heat never takes a break — and neither do we. Professional pool cleaning, chemical balancing, and equipment maintenance across the entire Phoenix metro area.</p>
-      <div class="hero-btns">
-        <a href="#quote" class="btn-sky">Get a Free Quote</a>
-        <a href="#services" class="btn-ghost">See Services →</a>
-      </div>
-      <div class="hero-trust">
-        <div class="trust-item"><span class="trust-icon">✓</span> Licensed & Insured</div>
-        <div class="trust-item"><span class="trust-icon">✓</span> Weekly Service Available</div>
-        <div class="trust-item"><span class="trust-icon">✓</span> Free First Inspection</div>
-      </div>
-    </div>
-    <div class="hero-right">
-      <div class="pool-visual">
-        <div class="pool-stat-grid">
-          <div class="pool-stat"><div class="pool-stat-num">500+</div><div class="pool-stat-label">Pools Serviced</div></div>
-          <div class="pool-stat"><div class="pool-stat-num">5★</div><div class="pool-stat-label">Avg Rating</div></div>
-          <div class="pool-stat"><div class="pool-stat-num">12+</div><div class="pool-stat-label">Cities Covered</div></div>
-          <div class="pool-stat"><div class="pool-stat-num">365</div><div class="pool-stat-label">Days a Year</div></div>
-        </div>
-        <div class="pool-service-list">
-          <div class="pool-service-item"><span class="pool-service-check">💧</span><span class="pool-service-text">Weekly cleaning & skimming</span></div>
-          <div class="pool-service-item"><span class="pool-service-check">🧪</span><span class="pool-service-text">Chemical balancing & testing</span></div>
-          <div class="pool-service-item"><span class="pool-service-check">⚙️</span><span class="pool-service-text">Equipment inspection & repair</span></div>
-          <div class="pool-service-item"><span class="pool-service-check">🦠</span><span class="pool-service-text">Algae treatment & prevention</span></div>
-        </div>
-      </div>
-    </div>
+    <h1>Pool Service in <em>Phoenix, Arizona</em></h1>
+    <p>Weekly cleaning, water chemistry, equipment repair, and tile restoration for pools across the Valley — Phoenix, Scottsdale, Mesa, Gilbert, Chandler, and the West Valley. Chemicals included, one flat monthly price.</p>
+    <a class="cta" href="tel:+16232400428">Call (623) 240-0428</a>
   </div>
+</section>
+
+<div class="content-wrap">
+
+  <h2>The Hardest Water in Arizona</h2>
+  <p>Phoenix tap water runs between 300 and 900 parts per million calcium hardness depending on where in the Valley you are. Some neighborhoods pull groundwater that exceeds 1,000 ppm. For comparison, pool equipment manufacturers recommend keeping calcium below 200. Every pool in Phoenix is over that limit the day it fills, and the number only climbs as the sun evaporates water and leaves the minerals behind.</p>
+  <p>That calcium deposits on everything — heater cores, salt cell plates, filter grids, pump internals, and the waterline tile. A heater running in 600 ppm water scales its heat exchanger in half the time that one in 200 ppm water would. A salt cell rated for five years may last two. The tile line crusts over in 12 to 18 months instead of the two to three years you would see in softer-water cities.</p>
+  <p>The practical result is that pool equipment in Phoenix wears out faster, chemistry drifts faster, and the margin between a clean pool and a scaled, cloudy one is narrower than anywhere else in the state. Weekly service is not optional here — it is the baseline.</p>
+
+  <figure>
+    <img src="/images/phoenix-home-equipment.jpg" alt="Pool equipment pad with pump, filter, and salt cell at a Phoenix residential pool" width="1200" height="675" loading="lazy">
+    <figcaption>Equipment in Phoenix's 300–900 ppm water scales faster than anywhere else in Arizona — weekly inspection catches problems early.</figcaption>
+  </figure>
+
+  <h2>What Every Weekly Visit Covers</h2>
+  <p>The technician follows the same checklist every week. He skims the surface, empties the skimmer and pump baskets, brushes the walls, steps, and waterline tile, and vacuums the floor. Then he tests the water — free chlorine, pH, alkalinity, cyanuric acid, and calcium hardness — and adjusts whatever needs adjusting. He checks the filter pressure gauge, inspects the pump, and looks at every piece of visible equipment. If something is wrong, you hear about it the same day.</p>
+  <p>Chemicals are included in the monthly price. Chlorine, acid, stabilizer, and anything else your pool needs on a routine basis are part of what you pay. One number on your bill every month, nothing extra.</p>
+
+  <h2>Year-Round Pool Season</h2>
+  <p>Most Phoenix pools never close. The water stays warm enough to swim from March through November without a heater, and many homeowners heat through the winter and swim year round. That means twelve months of equipment run time, twelve months of chemistry drift, and twelve months of calcium building on every surface.</p>
+  <p>Monsoon season — mid-June through September — is the hardest stretch. Dust storms load the pool with fine particulate that clogs filters in a single pass, and the organic debris that follows a thunderstorm can turn water green within 48 hours. Summer highs above 115 degrees push water temperatures past 90, which doubles chlorine demand and accelerates algae growth. We adjust chemical dosing and visit focus by season so the pool stays ahead of whatever the weather throws at it.</p>
+
+  <figure>
+    <img src="/images/phoenix-home-pool.jpg" alt="Crystal clear residential pool at sunset in Phoenix with palm trees and a privacy wall" width="1200" height="675" loading="lazy">
+    <figcaption>A Phoenix pool after weekly service — clear water, clean tile, no scale buildup despite the hard water.</figcaption>
+  </figure>
+
+  <h2>Repairs and Equipment</h2>
+  <p>When something breaks, we diagnose and fix it on site. Pumps, motors, filters, heaters, salt cells, lights, and plumbing leaks — we carry common parts on the truck and can usually finish the repair the same visit. If a part needs to be ordered, we tell you the lead time and come back to install it. Repairs are quoted separately from the monthly cleaning price, and you see the number before any work starts.</p>
+  <p>If your pump is at the end of its life and a motor swap costs more than half of a new variable-speed unit, we will tell you. A variable-speed pump cuts energy costs by 60 to 80 percent, and in a market where pools run year round, the savings are significant. Arizona also requires variable-speed pumps on new construction and certain replacements under the Department of Energy's 2021 rule.</p>
+
 </div>
 
-<!-- MARQUEE -->
-<div class="marquee">
-  <div class="marquee-inner">🏊 Weekly Pool Cleaning &nbsp;&nbsp; 🧪 Chemical Balancing &nbsp;&nbsp; 🔧 Equipment Repair &nbsp;&nbsp; 🦠 Algae Treatment &nbsp;&nbsp; 💧 Filter Cleaning &nbsp;&nbsp; ☀️ Phoenix Year-Round Service &nbsp;&nbsp; 🏊 Weekly Pool Cleaning &nbsp;&nbsp; 🧪 Chemical Balancing &nbsp;&nbsp; 🔧 Equipment Repair &nbsp;&nbsp; 🦠 Algae Treatment &nbsp;&nbsp; 💧 Filter Cleaning &nbsp;&nbsp; ☀️ Phoenix Year-Round Service &nbsp;&nbsp;</div>
+<section class="services-section">
+  <div class="services-inner">
+    <h2>Service Areas</h2>
+    <div class="service-grid">
+      <a class="service-link" href="/north-phoenix-pool-service/">
+        <h3>North Phoenix</h3>
+        <p>Desert Ridge, Anthem, Norterra, Tramonto, and the I-17 corridor.</p>
+      </a>
+      <a class="service-link" href="/scottsdale-pool-service/">
+        <h3>Scottsdale</h3>
+        <p>Old Town to North Scottsdale, DC Ranch, Grayhawk, and McDowell Mountain.</p>
+      </a>
+      <a class="service-link" href="/mesa-pool-service/">
+        <h3>Mesa</h3>
+        <p>East Mesa, Superstition Springs, Red Mountain, and the 202 corridor.</p>
+      </a>
+      <a class="service-link" href="/gilbert-pool-service/">
+        <h3>Gilbert</h3>
+        <p>Agritopia, Val Vista, Power Ranch, and south to Queen Creek.</p>
+      </a>
+      <a class="service-link" href="/chandler-pool-service/">
+        <h3>Chandler</h3>
+        <p>Ocotillo, Sun Groves, Chandler Heights, and the Price Corridor.</p>
+      </a>
+      <a class="service-link" href="/glendale-pool-service/">
+        <h3>Glendale</h3>
+        <p>Arrowhead Ranch, Westgate, and north to the Agua Fria corridor.</p>
+      </a>
+      <a class="service-link" href="/peoria-pool-service/">
+        <h3>Peoria</h3>
+        <p>Vistancia, Lake Pleasant, and the 101 corridor through central Peoria.</p>
+      </a>
+      <a class="service-link" href="/surprise-pool-service/">
+        <h3>Surprise</h3>
+        <p>Marley Park, Sun City Grand, Surprise Farms, and the 303 corridor.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="content-wrap">
+
+  <h2>One Price, Every Month</h2>
+  <p>You pay one flat number every month. That covers every weekly visit, every chemical your pool needs, and every equipment inspection. No per-visit charges, no line items for acid or chlorine, no monsoon surcharges. The only thing quoted separately is a repair — and you see that number before any work starts. Call with your address and pool size and we will give you the monthly price on the phone.</p>
+
 </div>
 
-<!-- SERVICES -->
-<section class="services" id="services">
-  <div class="section-inner">
-    <div class="eyebrow">What We Do</div>
-    <h2 class="section-title">Pool Services & Pricing</h2>
-    <p class="section-sub">From weekly maintenance to emergency algae treatment — we keep your Arizona pool sparkling clean and swim-ready every single day of the year.</p>
-    <div class="services-grid">
-      <a href="https://phoenixpoolcleaningpro.com/pool-maintenance/" style="text-decoration:none;color:inherit;display:block"><div class="service-card"><span class="service-icon">✨</span><div class="service-name">Pool Maintenance</div><div class="service-desc">Full startup and shutdown service including equipment checks, chemical startup, and cover removal or installation. Get your pool season-ready the right way.</div><div class="service-price">💰 Starting at $199</div></div></a>
-      <a href="https://phoenixpoolcleaningpro.com/pool-cleaning-service/" style="text-decoration:none;color:inherit;display:block"><div class="service-card"><span class="service-icon">🧪</span><div class="service-name">Pool Cleaning Service</div><div class="service-desc">Professional testing and balancing of pH, chlorine, alkalinity, and stabilizer levels. Phoenix's intense sun burns through chemicals fast — we keep your water perfectly balanced.</div><div class="service-price">💰 Included in weekly service</div></div></a>
-      <a href="https://phoenixpoolcleaningpro.com/algae-treatment/" style="text-decoration:none;color:inherit;display:block"><div class="service-card"><span class="service-icon">🦠</span><div class="service-name">Algae Treatment</div><div class="service-desc">Green, black, or mustard algae — we eliminate it fast and prevent it from coming back. Phoenix's heat makes algae growth aggressive. We stay ahead of it so you don't have to.</div><div class="service-price">💰 Starting at $150</div></div></a>
-      <a href="https://phoenixpoolcleaningpro.com/pool-equipment-repair/" style="text-decoration:none;color:inherit;display:block"><div class="service-card"><span class="service-icon">⚙️</span><div class="service-name">Equipment Repair</div><div class="service-desc">Pumps, filters, heaters, lights, and automation systems — we diagnose and repair all pool equipment. Arizona heat is hard on pool equipment. We keep everything running.</div><div class="service-price">💰 Free diagnosis with service</div></div></a>
-      <a href="https://phoenixpoolcleaningpro.com/pool-chemical-balancing/" style="text-decoration:none;color:inherit;display:block"><div class="service-card"><span class="service-icon">🧪</span><div class="service-name">Chemical Balancing</div><div class="service-desc">Professional testing and balancing of pH, chlorine, alkalinity, and stabilizer levels. Phoenix's intense sun burns through chemicals fast — we keep your water perfectly balanced.</div><div class="service-price">💰 Included in weekly service</div></div></a>
-      <a href="https://phoenixpoolcleaningpro.com/weekly-pool-cleaning/" style="text-decoration:none;color:inherit;display:block"><div class="service-card"><span class="service-icon">💧</span><div class="service-name">Weekly Pool Cleaning</div><div class="service-desc">Skimming, brushing, vacuuming, and basket emptying every week. Your pool stays clean without you lifting a finger — even through Arizona's dusty monsoon season.</div><div class="service-price">💰 Starting at $99/month</div></div></a>
+<section class="faq-section">
+  <div class="faq-inner">
+    <h2>Questions</h2>
+
+    <div class="faq-item">
+      <h3>What areas in Phoenix do you serve?</h3>
+      <p>We service pools across the Phoenix metro — North Phoenix, Scottsdale, Mesa, Gilbert, Chandler, Glendale, Peoria, Surprise, and surrounding Maricopa County communities. If you are in the Valley and have a pool, we can reach you.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Why is pool maintenance more demanding in Phoenix?</h3>
+      <p>Phoenix tap water runs 300 to 900 parts per million calcium hardness depending on your neighborhood — far above the 200 ppm ceiling equipment manufacturers recommend. That calcium scales heaters, salt cells, and tile faster than anywhere else in the state. Add year-round pool season, summer highs above 115 degrees, and monsoon dust storms, and equipment and chemistry both need more attention than in milder climates.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is included in weekly pool service?</h3>
+      <p>Every visit includes skimming, brushing walls and tile, vacuuming, emptying baskets, testing and adjusting water chemistry, checking filter pressure, and inspecting equipment. All routine chemicals — chlorine, acid, stabilizer — are included in the monthly price.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do you repair pool equipment or just clean?</h3>
+      <p>Both. We repair pumps, motors, filters, heaters, salt cells, lights, and plumbing leaks. Most cleaning customers call us first when something breaks because we already know their pool. Repairs are quoted separately and you see the price before work starts.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How much does weekly pool service cost in Phoenix?</h3>
+      <p>Monthly pricing depends on pool size, spa, and sanitization type. Call with your address and we will give you a flat monthly price over the phone. Chemicals are included. No per-visit charges, no seasonal surcharges.</p>
     </div>
   </div>
 </section>
 
-<!-- WHY US -->
-<section class="why" id="why">
-  <div class="section-inner">
-    <div class="why-grid">
-      <div class="why-content">
-        <div class="eyebrow">Why Choose Us</div>
-        <h2 class="section-title">Arizona Pool Experts You Can Trust</h2>
-        <div class="why-list">
-          <div class="why-item"><div class="why-icon-wrap">☀️</div><div class="why-text"><strong>Built for Arizona's Climate</strong><span>Phoenix's extreme heat, monsoon dust, and year-round swim season demand a pool service that understands this specific environment. We do.</span></div></div>
-          <div class="why-item"><div class="why-icon-wrap">📅</div><div class="why-text"><strong>Consistent Weekly Schedule</strong><span>Same technician, same day, every week. No surprises, no cancellations, no excuses. Your pool gets cleaned on schedule every time.</span></div></div>
-          <div class="why-item"><div class="why-icon-wrap">📱</div><div class="why-text"><strong>Service Reports After Every Visit</strong><span>Photo report sent to your phone after every cleaning so you can see exactly what was done — even when you're not home.</span></div></div>
-          <div class="why-item"><div class="why-icon-wrap">🛡️</div><div class="why-text"><strong>Licensed, Insured & Background Checked</strong><span>Every technician is fully licensed, insured, and background checked. Complete peace of mind every time we're at your home.</span></div></div>
-        </div>
-      </div>
-      <div class="why-visual">
-        <div class="why-visual-title">Phoenix Pool Facts</div>
-        <div class="why-stats">
-          <div class="why-stat-row"><span class="why-stat-label">Avg Arizona pool temp (summer)</span><span class="why-stat-val">92°F</span></div>
-          <div class="why-stat-row"><span class="why-stat-label">Pools in Phoenix metro</span><span class="why-stat-val">1M+</span></div>
-          <div class="why-stat-row"><span class="why-stat-label">Swim days per year</span><span class="why-stat-val">300+</span></div>
-          <div class="why-stat-row"><span class="why-stat-label">Chemical usage vs national avg</span><span class="why-stat-val">2.5x</span></div>
-          <div class="why-stat-row"><span class="why-stat-label">Algae risk in AZ summer</span><span class="why-stat-val">Very High</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
+<section class="cta-band">
+  <h2>Ready for a Pool That Stays Clean?</h2>
+  <p>Call with your address and pool size. One flat monthly price, chemicals included, same technician every week.</p>
+  <a href="tel:+16232400428">Call (623) 240-0428</a>
 </section>
 
-<!-- SERVICE AREAS -->
-<section class="areas" id="areas">
-  <div class="section-inner">
-    <div class="eyebrow">Where We Serve</div>
-    <h2 class="section-title">Serving All of the Phoenix Metro</h2>
-    <p class="section-sub">From Scottsdale to Surprise, we cover the entire Phoenix metropolitan area and surrounding communities across the Phoenix metro.</p>
-    <div class="areas-grid">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <div class="area-chip"><span class="area-dot"></span>Queen Creek</div>
-      <div class="area-chip"><span class="area-dot"></span>San Tan Valley</div>
-      <div class="area-chip"><span class="area-dot"></span>Cave Creek</div>
-      <div class="area-chip"><span class="area-dot"></span>Fountain Hills</div>
-      <div class="area-chip"><span class="area-dot"></span>Paradise Valley</div>
-      <div class="area-chip"><span class="area-dot"></span>Anthem</div>
-      <div class="area-chip"><span class="area-dot"></span>Ahwatukee</div>
-      
-      
-      <div class="area-chip"><span class="area-dot"></span>El Mirage</div>
-      <div class="area-chip"><span class="area-dot"></span>Litchfield Park</div>
-      <div class="area-chip"><span class="area-dot"></span>Tolleson</div>
-      <div class="area-chip"><span class="area-dot"></span>Youngtown</div>
-    </div>
-  </div>
-</section>
-
-<!-- REVIEWS -->
-<section class="reviews" id="reviews">
-  <div class="section-inner">
-    <div class="eyebrow">What Customers Say</div>
-    <h2 class="section-title">5-Star Pool Service Across Arizona</h2>
-    <div class="reviews-grid">
-      <div class="review-card"><div class="stars">★★★★★</div><div class="review-text">"My pool went from green to crystal clear in 48 hours. They came out same day and fixed an algae problem that two other companies couldn't handle. Absolutely incredible service."</div><div class="reviewer">Mike T. <span>· Scottsdale, AZ</span></div></div>
-      <div class="review-card"><div class="stars">★★★★★</div><div class="review-text">"Been using them for two years now. Every week like clockwork — same tech, same day, and my pool always looks perfect. I get a photo report after every visit. Worth every penny."</div><div class="reviewer">Jennifer R. <span>· Gilbert, AZ</span></div></div>
-      <div class="review-card"><div class="stars">★★★★★</div><div class="review-text">"As a new homeowner in Arizona I had no idea how to maintain a pool in this heat. They set everything up perfectly and explained every step. My water chemistry has been perfect for months."</div><div class="reviewer">Carlos M. <span>· Chandler, AZ</span></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta-section" id="quote">
-  <div class="section-inner">
-    <h2>Ready for a Crystal Clear Pool?</h2>
-    <p>Get your free quote today. We serve all of the Phoenix metro — same week service available in most areas.</p>
-    <a href="tel:6232400428" class="btn-sand">📞 Call for a Free Quote</a>
-    <p style="margin-top:16px;font-size:0.82em;color:rgba(255,255,255,0.35);position:relative">No contracts required · Cancel anytime · Licensed & insured</p>
-  </div>
-</section>
-
-<!-- JESSE QUOTE -->
-<div class="quote-bar">
-  <p>"I believe the unbelievable, I receive the impossible, because it's doable." — <strong>Jesse Duplantis</strong></p>
-</div>
-
-<footer>
-  <div class="footer-logo">🏊 Phoenix Pool Cleaning Pro</div>
-  <div class="footer-links">
-    <a href="#services">Services</a>
-    <a href="#areas">Service Areas</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#quote">Get a Quote</a>
-    <a href="https://phoenixpoolcleaningpro.com/privacy-policy.html">Privacy Policy</a>
-    <a href="https://phoenixpoolcleaningpro.com/terms.html">Terms</a>
-    <a href="https://phoenixpoolcleaningpro.com/swimming-pool-service/">Swimming Pool Service</a>
-    <a href="https://phoenixpoolcleaningpro.com/pool-cleaning-near-me/">Pool Cleaning Near Me</a>
-  </div>
-  <p class="footer-copy">© 2026 Phoenix Pool Cleaning Pro. Part of the Dominion Brand Family. All rights reserved.</p>
+<footer class="site-footer">
+  <p>&copy; 2026 Phoenix Pool Cleaning Pro. Serving Phoenix, Scottsdale, Mesa, Gilbert, Chandler, Glendale, Peoria and Surprise, AZ.</p>
+  <p><a href="/privacy-policy.html">Privacy Policy</a> · <a href="/terms.html">Terms</a></p>
 </footer>
 
 </body>
