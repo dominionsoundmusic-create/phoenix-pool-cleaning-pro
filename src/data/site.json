@@ -145,8 +145,8 @@
    "name": "Pool Equipment Repair",
    "short": "Pool Equipment Repair",
    "summary": "The whole equipment pad: valves, timers and automation, salt systems, lights and fountains, and which jobs belong to a licensed contractor.",
-   "card_image": "pool/equip-wide.jpg",
-   "card_alt": "Pool equipment pad with a pump and a filter tank"
+   "card_image": "pool/vac-wide.jpg",
+   "card_alt": "A robotic pool cleaner moving across a sunlit pool floor"
   },
   {
    "slug": "pool-heater-repair",

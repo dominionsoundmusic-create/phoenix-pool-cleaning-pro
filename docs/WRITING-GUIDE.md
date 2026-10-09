@@ -74,8 +74,8 @@ Never write the phone number by hand: use `{{ site.business.phone_display }}` (t
   shows status, classification, bond and complaint history). ROC phone 1-877-692-9762 (verify before using).
   A.R.S. 32-1121 has a "handyman" exemption for small jobs under a dollar limit that does not apply to work
   needing a building permit; do NOT state the dollar figure unless you verify the current statute text,
-  since bills have proposed changing it. Routine cleaning and water care are generally not treated as
-  contracting. Say this carefully ("generally"), never claim the line checks licenses.
+  since bills have proposed changing it. Whether a cleaning-only service needs a license is not spelled out (fc2 found no source saying cleaning is exempt); never claim it is
+  exempt. Say this carefully ("generally"), never claim the line checks licenses.
 - Electricity: APS (Arizona Public Service) and SRP (Salt River Project) serve most of the metro; which
   one depends on the address (and a few areas have other providers). Verify for your town.
 - Natural gas: Southwest Gas serves most of the metro. Verify for your town.

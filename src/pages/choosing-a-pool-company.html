@@ -18,9 +18,9 @@ hero:
 cta_title: "Want to talk to a local pool company now?"
 faqs:
   - q: "Do pool service companies need a license in Arizona?"
-    a: "<p>It depends on the work. Routine cleaning and water care are generally not treated as contracting. Repair work is different: the Arizona Registrar of Contractors licenses pool service and repair under the R-6 classification (C-6 for commercial pools, CR-6 for both), and building or rebuilding pools falls under classifications such as B-5. A narrow exemption in A.R.S. 32-1121 covers small jobs of a casual or minor nature, but never work that needs a building permit. When in doubt, ask the company which classification it holds and look it up.</p>"
+    a: "<p>It depends on the work. Arizona's contractor law is written around building, altering and repairing, and the ROC's classifications do not spell out plainly whether a cleaning-only route needs a license. Repair work is clearer: the Arizona Registrar of Contractors licenses pool service and repair under the R-6 classification (C-6 for commercial pools, CR-6 for both), and building or rebuilding pools falls under classifications such as B-5. A narrow exemption in A.R.S. 32-1121 covers small jobs of a casual or minor nature, but never work that needs a building permit. When in doubt, ask the company which classification it holds and look it up.</p>"
   - q: "How do I look up a pool company on the ROC?"
-    a: "<p>Go to the ROC contractor search at roc.az.gov/contractor-search and search by the business name or license number. Open the record and check that the license is active, that its classification fits the work you need, and that the name matches the one on your contract. The record also shows bond information and complaint history. The ROC advises checking that the license is in good standing on the day you sign.</p>"
+    a: "<p>Go to the ROC contractor search at roc.az.gov/contractor-search and search by the business name or license number. Open the record and check that the license is active, that its classification fits the work you need, and that the name matches the one on your contract. The record also shows bond information and recent complaint history. The ROC advises checking that the license is in good standing on the day you sign.</p>"
   - q: "Are online reviews of pool companies reliable?"
     a: "<p>They help, but read them for patterns rather than stars. Look at how recent the reviews are, whether they describe the kind of work you need, and how the company answers complaints. A handful of glowing reviews tells you less than a long record of plain, specific ones. Pair reviews with the ROC search, which shows things reviews do not, such as license status and complaints filed with the state.</p>"
   - q: "Should I pay a pool company in cash?"
@@ -63,7 +63,7 @@ faqs:
         <caption class="sr">Common pool jobs and how they relate to Arizona ROC license classifications</caption>
         <thead><tr><th scope="col">Type of work</th><th scope="col">License picture</th><th scope="col">What to ask</th></tr></thead>
         <tbody>
-          <tr><th scope="row">Weekly cleaning and water care</th><td>Generally not treated as contracting work</td><td>What is included each visit, and what happens when a repair is found</td></tr>
+          <tr><th scope="row">Weekly cleaning and water care</th><td>Not spelled out plainly in the ROC's pool classifications; the state's contractor definition centers on building, altering and repairing. Ask the ROC if it matters for your case</td><td>What is included each visit, and what happens when a repair is found</td></tr>
           <tr><th scope="row">Equipment service and minor repair</th><td>R-6 Swimming Pool Service and Repair covers servicing and minor repair of residential pools and their accessories (C-6 is the commercial version, CR-6 covers both)</td><td>Your ROC license number, and does the classification shown include this work?</td></tr>
           <tr><th scope="row">Potable water connections, gas lines, gas chlorine and electrical work past the first disconnect</th><td>The ROC lists these as outside the R-6 scope</td><td>Who does this part of the job, and under which license?</td></tr>
           <tr><th scope="row">Full replacement of a plaster or pebble interior, or of a deck</th><td>Outside R-6 by the ROC's own description. The B-5 swimming pool contractor classification covers building and repairing pools and spas</td><td>Which classification covers a full resurface, and is it on your license?</td></tr>
@@ -84,7 +84,7 @@ faqs:
     <li><strong>Check the status.</strong> The license should be active. A license that is suspended, revoked, expired or inactive is a reason to stop.</li>
     <li><strong>Read the classification.</strong> Match it to your job using the table above: R-6, C-6 or CR-6 for service and repair, a classification such as B-5 for pool building and resurfacing work.</li>
     <li><strong>Compare the name.</strong> The name on the license should match the name on the quote, the contract and the checks you write.</li>
-    <li><strong>Look at the bond and complaint history.</strong> The record shows bond information and complaints. One old complaint that was resolved is different from a pattern of recent ones; read the details.</li>
+    <li><strong>Look at the bond and complaint history.</strong> The record shows bond details and complaint cases closed in roughly the past two years, marked as resolved or disciplined. One resolved complaint is different from a pattern of disciplined ones; read the details.</li>
     <li><strong>Check again when you sign.</strong> The ROC advises making sure the license is in good standing on the day you sign the contract, not just when you first got the quote.</li>
   </ol>
   {{ m.license_check() }}
@@ -185,7 +185,9 @@ faqs:
   {{ m.sources([
     {'label': 'Arizona Registrar of Contractors: License classifications', 'url': 'https://roc.az.gov/license-classifications'},
     {'label': 'Arizona Administrative Code R4-9-103: Residential contractor license classifications and scopes of work', 'url': 'https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R4-9-103'},
+    {'label': 'A.R.S. 32-1101: Definitions (contractor)', 'url': 'https://www.azleg.gov/ars/32/01101.htm'},
     {'label': 'A.R.S. 32-1121: Persons not required to be licensed', 'url': 'https://www.azleg.gov/ars/32/01121.htm'},
+    {'label': 'Arizona Registrar of Contractors: Contractor search consumer guide', 'url': 'https://roc.az.gov/sites/default/files/2022-07/20201221-Guide.pdf'},
     {'label': 'Arizona Registrar of Contractors: Contractor search', 'url': 'https://roc.az.gov/contractor-search'},
     {'label': 'Arizona Registrar of Contractors: Before you hire a contractor', 'url': 'https://roc.az.gov/before-hire'},
     {'label': 'Arizona Registrar of Contractors: Recovery Fund', 'url': 'https://roc.az.gov/recovery-fund'},

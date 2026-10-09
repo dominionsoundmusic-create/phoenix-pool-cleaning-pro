@@ -22,7 +22,7 @@ schema_service:
 cta_title: "Anthem pool acting up? Call the free line"
 faqs:
   - q: "Where does Anthem, AZ get its water?"
-    a: "<p>From EPCOR, a private water utility, not a city. EPCOR's water quality report for Anthem names Colorado River water delivered by the Central Arizona Project, piped from the CAP canal and treated at the Anthem Water Treatment Plant, with groundwater from the Salt River Valley basin also listed as a source. The report notes the supply may be a mix of Colorado River and Lake Pleasant water.</p>"
+    a: "<p>From EPCOR, a private water utility, not a city. EPCOR's water quality report for Anthem names Colorado River water delivered by the Central Arizona Project, piped from the CAP canal and treated at the Anthem Water Treatment Plant, and it says the supply contains both surface water and groundwater, so hardness and taste can vary with the seasons.</p>"
   - q: "How hard is the water in Anthem?"
     a: "<p>EPCOR's 2024 Anthem report puts hardness at about 18 grains per gallon, with calcium at 80 parts per million and total dissolved solids at 640 milligrams per liter. That is very hard water, and a pool filled and topped off with it builds calcium quickly.</p>"
   - q: "Do I need to drain my Anthem pool because of the hard water?"
@@ -57,17 +57,15 @@ faqs:
 
 <section class="prose" id="anthem-water">
   <h2>Where Anthem's water comes from</h2>
-  <p>EPCOR's report for the Anthem system names its sources as Colorado River water carried by the Central Arizona Project (CAP) and groundwater from the Salt River Valley basin. The CAP water reaches Anthem by pipeline from the CAP canal and is treated at the Anthem Water Treatment Plant, which the utility describes as a microfiltration plant. The report also notes that the water may be a mix of Colorado River water and Lake Pleasant water, and Lake Pleasant takes in water from the Agua Fria River.</p>
+  <p>EPCOR's report for the Anthem system names Colorado River water carried by the Central Arizona Project (CAP) as its main source. That water comes from the CAP canal and is treated at the Anthem Water Treatment Plant, which the utility describes as a microfiltration plant. The report adds that the supply contains both surface water and groundwater, which is why hardness and taste can change with the seasons.</p>
   <p>Microfiltration is a very fine filter. It strains out particles and microbes, but it does not take out dissolved calcium and magnesium, so the treated water stays hard. And because the blend can shift between sources, the water you fill with in one season may not test the same as the water you fill with in another.</p>
   <div class="table-wrap">
     <table>
-      <caption class="sr">Hardness and minerals in EPCOR's Anthem water quality reports</caption>
+      <caption class="sr">Hardness and minerals in EPCOR's 2024 Anthem water quality report</caption>
       <thead>
         <tr><th scope="col">EPCOR Anthem report</th><th scope="col">Hardness</th><th scope="col">Calcium</th><th scope="col">Other readings</th></tr>
       </thead>
       <tbody>
-        <tr><th scope="row">2020 report</th><td>17.8 grains per gallon</td><td>73 ppm</td><td>Magnesium 27 ppm</td></tr>
-        <tr><th scope="row">2022 report</th><td>About 17 grains per gallon</td><td>Not used here</td><td>Not used here</td></tr>
         <tr><th scope="row">2024 report</th><td>About 18 grains per gallon</td><td>80 ppm</td><td>Magnesium 29 ppm, total dissolved solids 640 mg/L, pH 8.2</td></tr>
       </tbody>
     </table>
@@ -154,10 +152,8 @@ faqs:
   <p>More towns around the Valley:</p>
   {{ m.area_pills(exclude='anthem') }}
   {{ m.sources([
-    {'label': 'EPCOR: Anthem 2025 Water Quality Report (sources, CAP pipeline, Lake Pleasant blend, Anthem Water Treatment Plant)', 'url': 'https://www.epcor.com/content/dam/epcor/documents/water-quality-reports/2025-anthem-water-quality-reports.pdf'},
-    {'label': 'EPCOR: Anthem 2024 Water Quality Report (hardness about 18 grains per gallon, calcium, magnesium, TDS, pH)', 'url': 'https://www.epcor.com/content/dam/epcor/documents/water-quality-reports/2024_anthem_water-quality-reports.pdf'},
-    {'label': 'EPCOR: Anthem 2022 Water Quality Report (hardness about 17 grains per gallon)', 'url': 'https://www.epcor.com/content/dam/epcor/documents/water-quality-reports/2022_anthem_water-quality-reports.pdf'},
-    {'label': 'EPCOR: Anthem 2020 Water Quality Report (hardness 17.8 grains per gallon, calcium, magnesium)', 'url': 'https://www.epcor.com/content/dam/epcor/documents/water-quality-reports/2020_anthem_water-quality-reports.pdf'},
+    {'label': 'EPCOR: Anthem 2025 Water Quality Report (sources, CAP canal supply, Anthem Water Treatment Plant)', 'url': 'https://www.epcor.com/content/dam/epcor/documents/water-quality-reports/2025-anthem-water-quality-reports.pdf'},
+    {'label': 'EPCOR: Anthem 2024 Water Quality Report (hardness about 18 grains per gallon, calcium 80, magnesium 29, TDS 640, pH 8.2, microfiltration plant)', 'url': 'https://www.epcor.com/content/dam/epcor/documents/water-quality-reports/2024_anthem_water-quality-reports.pdf'},
     {'label': 'U.S. EPA: Secondary drinking water standards (TDS guideline 500 mg/L)', 'url': 'https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals'},
     {'label': 'Arizona Registrar of Contractors: contractor search', 'url': 'https://roc.az.gov/contractor-search'}
   ]) }}
