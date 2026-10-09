@@ -84,3 +84,14 @@ reversed later.
     summaries of the named official pages, then re-checked by separate fact-check agents
     (docs/fact-check.md). WebSearch is also capped at 200 calls per turn shared by every agent, which
     shaped how the research was spread across turns.
+19. **Fact-check outcomes that changed site-wide wording.** The claim that routine cleaning is "generally
+    not treated as contracting" had no source and was replaced everywhere (shared license macro and 8
+    pages) with: repairs, equipment replacement and resurfacing generally call for a licensed contractor;
+    whether cleaning-only service needs a license is not spelled out, so ask the ROC.
+20. **No brand names as sources.** Equipment and chemical makers' pages were removed as sources and
+    replaced with trade publications (Pool & Spa News, AQUA Magazine) or the claim was cut, to stay well
+    clear of CLAUDE.md rule 3.
+21. **Research spread across turns.** The 200-searches-per-turn cap ran out during the first writing pass;
+    8 pages (7 towns and the drain guide) were held back rather than written without sources, then
+    written in the next turn with per-page search budgets. The fact-check ran in two waves for the same
+    reason.
