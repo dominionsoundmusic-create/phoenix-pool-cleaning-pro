@@ -54,7 +54,7 @@ Totals: 17 claims, 12 confirmed, 3 corrected, 1 softened, 1 removed.
 | Filling Dec to March can affect sewer fee; April to Nov does not | mesaaz.gov | confirmed | |
 | Pool water more salt and chlorine than tap; landscape caution | mesaaz.gov | corrected | Rewritten to the city's actual guidance: yard draining allowed, wait days for chlorine, drain slowly, salt-tolerant plants, keep water on your lot. |
 
-Totals: 15 claims, 8 confirmed, 2 corrected, 2 softened, 2 removed (plus 1 confirmed reuse claim counted above).
+Totals: 15 claims, 9 confirmed, 2 corrected, 2 softened, 2 removed.
 
 ## /chandler-pool-service
 
@@ -81,7 +81,7 @@ Totals: 15 claims, 8 confirmed, 2 corrected, 2 softened, 2 removed (plus 1 confi
 | SRP and APS both serve Chandler; Southwest Gas | chandleraz.gov connectivity page | confirmed | |
 | SRP residential 24/7 line (602) 236-8888 | srpnet.com | confirmed | |
 
-Totals: 20 claims, 13 confirmed, 2 corrected, 0 softened, 5 removed (1 softened detail inside the 12 gpm row).
+Totals: 20 claims, 14 confirmed, 2 corrected, 0 softened, 4 removed (plus a softened detail inside the 12 gpm row).
 
 ## /gilbert-pool-service
 
@@ -116,7 +116,7 @@ Totals: 20 claims, 13 confirmed, 2 corrected, 0 softened, 5 removed (1 softened 
 | Grass rebate up to $2,000 plus $1,000; pre-approval; no pools or fountains in converted area; smart controller $250 | gilbertaz.gov | confirmed | |
 | 90% growth 2000 to 2010 (added to replace "built in a rush" card) | gilbertaz.gov | confirmed | |
 
-Totals: 28 claims, 15 confirmed, 2 corrected, 5 softened, 6 removed (one removal counted with its replacement).
+Totals: 28 claims, 14 confirmed, 2 corrected, 5 softened, 7 removed.
 
 ## /ahwatukee-pool-service
 
@@ -167,9 +167,9 @@ Totals: 10 claims, 5 confirmed, 1 corrected, 1 softened, 3 removed.
 | Ironwood Crossing (south of Pima Rd) and Encanterra (south of Combs Rd) "sit on the Pinal side" | queencreekaz.gov utility exchange | corrected | Town confirms it became their wastewater provider in a 2023 exchange; locations removed. |
 | Monsoon dates; 1 to 3 dust storms mostly from southeast | weather.gov | confirmed | |
 
-Totals: 26 claims, 14 confirmed, 3 corrected, 3 softened, 6 removed.
+Totals: 26 claims, 15 confirmed, 3 corrected, 3 softened, 5 removed.
 
 ## Grand totals
 
-116 claims checked: 67 confirmed, 13 corrected, 12 softened, 23 removed (one unverified low-risk claim on
+116 claims checked: 69 confirmed, 13 corrected, 12 softened, 22 removed (one unverified low-risk claim on
 Tempe storm drains kept, cited page topic matches). Searches used: 34.
