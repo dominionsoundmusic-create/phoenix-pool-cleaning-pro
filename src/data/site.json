@@ -349,7 +349,7 @@
    "name": "Ahwatukee",
    "city": "Phoenix",
    "group": "east",
-   "summary": ""
+   "summary": "A City of Phoenix urban village south of South Mountain, first built in the 1970s and annexed by 1987."
   },
   {
    "slug": "queen-creek",
@@ -365,7 +365,7 @@
    "name": "San Tan Valley",
    "city": "San Tan Valley",
    "group": "east",
-   "summary": ""
+   "summary": "A Pinal County community of over 100,000 that voted in 2025 to become a town on July 1, 2026."
   },
   {
    "slug": "apache-junction",
@@ -381,7 +381,7 @@
    "name": "Maricopa",
    "city": "Maricopa",
    "group": "east",
-   "summary": ""
+   "summary": "A young Pinal County city, incorporated in 2003, that grew from about 1,000 residents to roughly 73,300."
   },
   {
    "slug": "glendale",
@@ -453,7 +453,7 @@
    "name": "Laveen",
    "city": "Phoenix",
    "group": "west",
-   "summary": ""
+   "summary": "Former farm and dairy country between South Mountain and the Salt River, partly a Phoenix village and partly unincorporated county."
   }
  ]
 }
