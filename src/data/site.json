@@ -389,7 +389,7 @@
    "name": "Glendale",
    "city": "Glendale",
    "group": "west",
-   "summary": ""
+   "summary": "West Valley city whose tap water blends Salt and Verde river water, Colorado River water through CAP, and city wells."
   },
   {
    "slug": "peoria",
@@ -397,7 +397,7 @@
    "name": "Peoria",
    "city": "Peoria",
    "group": "west",
-   "summary": ""
+   "summary": "Long West Valley city that shares Colorado River water and the Pyramid Peak treatment plant with Glendale for its northern neighborhoods."
   },
   {
    "slug": "surprise",
@@ -413,7 +413,7 @@
    "name": "Sun City",
    "city": "Sun City",
    "group": "west",
-   "summary": ""
+   "summary": "Community served by EPCOR water, where this page covers private backyard pools rather than the recreation center pools."
   },
   {
    "slug": "litchfield-park",
