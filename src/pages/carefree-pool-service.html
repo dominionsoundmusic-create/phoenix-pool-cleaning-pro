@@ -32,8 +32,8 @@ faqs:
 ---
 {% block content %}
 <section class="prose">
-  <p class="lead">Carefree pool service has a few local twists. The town's water comes through its own water company, and many homes sit on natural desert lots where boulders and native plants run right up to the pool. Here is what that means for keeping a pool clean and its equipment running, and how one free call reaches a local pool company.</p>
-  <p>Phoenix Pool Cleaning Pro does not service pools. Call {{ site.business.phone_display }} and an automated assistant asks what is going on with the pool, then hands the call to an independent, locally owned pool service company that works in Carefree. That company sees the pool, quotes its own price, does the work and is paid by you directly.</p>
+  <p class="lead">Carefree pool service has a few local twists. The town's water comes through its own water company, and many homes sit on natural desert lots where boulders and native plants run right up to the pool. Here is what that means for keeping a pool clean and its equipment running, and how to reach a nearby pool company with one free phone call.</p>
+  <p>Phoenix Pool Cleaning Pro does not service pools. When you dial {{ site.business.phone_display }}, a short automated exchange covers what the pool is doing, and then the line hands the call to an independent, locally owned pool service company that works in Carefree. That company sees the pool, quotes its own price, does the work and is paid by you directly.</p>
 </section>
 
 <section class="prose">
@@ -120,7 +120,7 @@ faqs:
       </div>
       <div class="panel">
         <h3>A license you can check</h3>
-        <p>The site explains how to look up a company's Arizona ROC license yourself before repair or equipment work.</p>
+        <p>Before repair or equipment work, use the ROC contractor search, explained on this site, to confirm the license.</p>
       </div>
     </div>
   </div>
@@ -133,7 +133,7 @@ faqs:
   {{ m.license_check() }}
   <p>For more on picking a company, see <a href="/choosing-a-pool-company/">how to choose a pool company</a>.</p>
   {{ m.related(['area:cave-creek', 'area:scottsdale', 'area:anthem', 'area:fountain-hills'], 'Areas near Carefree') }}
-  <p>Every Phoenix-area community the line serves:</p>
+  <p>Town pages across the Valley:</p>
   {{ m.area_pills(exclude='carefree') }}
   {{ m.sources([
     {'label': 'Town of Carefree: Utilities (Carefree Water Company, local wells)', 'url': 'https://www.carefree.org/page/utilities'},

@@ -261,7 +261,7 @@
    "name": "North Phoenix",
    "city": "Phoenix",
    "group": "north",
-   "summary": ""
+   "summary": "The northern City of Phoenix villages, from North Mountain to North Gateway, on hard city water and City of Phoenix pool rules."
   },
   {
    "slug": "scottsdale",
@@ -293,7 +293,7 @@
    "name": "Cave Creek",
    "city": "Cave Creek",
    "group": "north",
-   "summary": ""
+   "summary": "A desert foothills town that runs its own water utility on Central Arizona Project water piped from the canal."
   },
   {
    "slug": "carefree",
@@ -301,7 +301,7 @@
    "name": "Carefree",
    "city": "Carefree",
    "group": "north",
-   "summary": ""
+   "summary": "A small desert town whose own water company, overseen by the Town Council, delivers mostly CAP water."
   },
   {
    "slug": "anthem",
@@ -309,7 +309,7 @@
    "name": "Anthem",
    "city": "Anthem",
    "group": "north",
-   "summary": ""
+   "summary": "An unincorporated master-planned community on Interstate 17 whose EPCOR water reports about 18 grains per gallon of hardness."
   },
   {
    "slug": "tempe",
