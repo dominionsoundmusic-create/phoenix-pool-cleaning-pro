@@ -1,0 +1,73 @@
+---
+type: page
+title: "Pool Service Arizona: Phoenix-Area Towns the Line Covers"
+description: "Pool service across the Phoenix metro in Arizona: 25 towns and neighborhoods with their own page, from Anthem to Maricopa and Buckeye to Apache Junction."
+h1: "Pool Service Across the Phoenix Area"
+crumb: "Service Areas"
+keyword: "pool service arizona"
+hero:
+  image: service-areas-hero.jpg
+  alt: "Rows of Phoenix-area tile-roof homes with backyard pools seen from a hillside, mountains on the horizon"
+  desc: "Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A high, bright daytime view over a Phoenix-area neighborhood of stucco homes with red and tan tile roofs, several turquoise backyard pools visible behind block walls on the right third, palo verde and palm trees, desert mountains on the horizon, clear blue sky across the calm left side. Realistic photo, no text, no logos, no house numbers, no recognizable faces."
+  fallback: pool/hero-2.jpg
+  fallback_alt: "A free-form turquoise pool beside an adobe-style covered patio with palms, cacti and mountains"
+  lead: "One free number covers Phoenix and 25 towns and neighborhoods across the Valley. Find your page to read about the water, the homes and the pool rules where you live."
+  secondary_label: "How the line works"
+  secondary_href: "/how-it-works/"
+cta_title: "Wherever you are in the Valley, call the free line"
+faqs:
+  - q: "Does the line have an office in my town?"
+    a: "<p>No. Phoenix Pool Cleaning Pro has no offices or crews anywhere. It is a phone line that transfers your call to an independent, locally owned pool company that takes calls for your area.</p>"
+  - q: "My town is not listed. Can I still call?"
+    a: "<p>Yes, if you are in the Phoenix metro. The towns with their own page are the ones where people search for pool service most. Call, say where you are, and the assistant will try to connect you with a company that works there.</p>"
+  - q: "Why do pool rules change from town to town?"
+    a: "<p>Each city and town sets its own rules for things like where drained or backwashed pool water may go and how pools must be fenced, and water providers differ, so the hardness of the water you fill with differs too. Each town page covers what applies there.</p>"
+---
+{% block content %}
+<section class="prose">
+  <p class="lead">Pool service in Arizona's biggest metro is local work. The water in Scottsdale is not the same as the water in Surprise, a Sun City backyard is not a Queen Creek lot, and each city writes its own rules about where pool water may drain.</p>
+  <p>The line answers calls from anywhere in the Phoenix metro, mostly in Maricopa County plus San Tan Valley, Apache Junction and the city of Maricopa in Pinal County. It has no offices: it transfers your call to an independent pool company that takes calls for your area. The pages below explain what is different about each place, with sources.</p>
+</section>
+
+{% set groups = [('north', 'North Valley and Scottsdale area', 'North Phoenix, the foothill towns and Scottsdale, from older central neighborhoods to desert lots under the mountains.'), ('east', 'East Valley and Pinal County edge', 'Tempe, Mesa, Chandler and Gilbert, the fast-growing southeast and the Pinal County communities beyond them.'), ('west', 'West Valley', 'Glendale, Peoria and the newer cities spreading west along Interstate 10 and north along the Loop 303.')] %}
+{% for key, title, intro in groups %}
+<section class="{% if loop.index == 2 %}band band--tint{% else %}prose{% endif %}">
+  {% if loop.index == 2 %}<div class="wide">{% endif %}
+  <h2>{{ title }}</h2>
+  <p class="section-intro">{{ intro }}</p>
+  <div class="cards">
+  {% for a in site.areas if a.group == key %}
+    <article class="card card--text">
+      <div class="card__body">
+        <h3><a href="{{ a.url }}">Pool service in {{ a.name }}</a></h3>
+        <p>{{ a.summary }}</p>
+        <p class="card__more" aria-hidden="true">Read the {{ a.name }} page</p>
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+  {% if loop.index == 2 %}</div>{% endif %}
+</section>
+{% endfor %}
+
+<section class="prose">
+  <h2>What changes from one town to the next</h2>
+  <div class="split">
+    <div>
+      <ul class="checks">
+        <li><strong>The water you fill with.</strong> Cities blend river water from the Salt and Verde, Colorado River water from the Central Arizona Project and groundwater in different amounts, so hardness differs.</li>
+        <li><strong>Where pool water may go.</strong> Cities set their own rules for draining and backwashing; many send it to the sewer cleanout or your own yard and never to the street.</li>
+        <li><strong>Pool barrier rules.</strong> Fence and gate requirements are set locally.</li>
+        <li><strong>Utilities.</strong> Electricity comes from APS or SRP depending on the address, which matters when a storm knocks out power to the pump.</li>
+      </ul>
+    </div>
+    {{ img('pool/hero-1-wide.jpg', 'A curved pool beside a stucco home with a covered patio, desert plants and mountains', 1200, 500) }}
+  </div>
+  {{ img('pool/skim-wide.jpg', 'A man standing in a pool skimming with a leaf net, a saguaro and block wall behind', 1200, 500) }}
+  {{ m.how_it_works_short() }}
+  {{ m.disclosure() }}
+  {{ m.sources([
+    {'label': 'City of Phoenix: drinking water sources (Salt and Verde, CAP, groundwater)', 'url': 'https://www.phoenix.gov/newsroom/water-services-news/phoenix-prepared-as-federal-framework-outlines-potential-cuts-to.html'}
+  ]) }}
+</section>
+{% endblock %}

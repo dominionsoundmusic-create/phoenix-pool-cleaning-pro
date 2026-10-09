@@ -1,0 +1,16 @@
+{% set b = site.business %}
+<section class="band band--navy cta" aria-labelledby="cta-title">
+  <div class="wide cta__grid">
+    <div class="cta__text">
+      <h2 id="cta-title">{{ page.cta_title | default('Talk to a local pool service company') }}</h2>
+      <p>{{ page.cta_text | default('One free call at any hour. Say what the pool is doing and where in the Valley you live, and the line puts you through to an independent, locally owned pool company that sees the pool for itself and sets its own price.') }}</p>
+      <p><a class="btn btn--orange btn--big" href="tel:{{ b.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+    </div>
+    <ul class="cta__facts">
+      <li><strong>Day or night</strong>An automated assistant answers every call, weekends and holidays too.</li>
+      <li><strong>Nothing to pay the line</strong>Callers are never billed by the line. Any price comes from the pool company.</li>
+      <li><strong>Look up the ROC license</strong>For repairs or resurfacing, get the company's Arizona ROC number and check it before work starts.</li>
+      <li><strong>You decide</strong>Hear what the company found and what it costs, then choose whether to go ahead.</li>
+    </ul>
+  </div>
+</section>

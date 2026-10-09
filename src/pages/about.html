@@ -1,0 +1,73 @@
+---
+type: about
+title: "About Phoenix Pool Cleaning Pro | A Free Pool Service Line"
+description: "Phoenix Pool Cleaning Pro is a free phone line, not a pool company. Who runs it, how it is paid, what it will never claim, and why it exists."
+h1: "About Phoenix Pool Cleaning Pro"
+crumb: "About"
+hero:
+  image: pool/hero-3.jpg
+  alt: "A long rectangular pool with a row of white lounge chairs, palms, desert trees and distant mountains"
+  lead: "A free phone line and a set of plain-spoken guides for pool owners across the Phoenix metro. It connects you with an independent local pool company. It does not do pool work itself."
+  secondary_label: "How the line works"
+  secondary_href: "/how-it-works/"
+cta_title: "Talk to a local pool company today"
+faqs:
+  - q: "Who owns Phoenix Pool Cleaning Pro?"
+    a: "<p>Phoenix Pool Cleaning Pro is a d/b/a of Dominion Digital Group. It is a phone line and website, not a pool service company, and it has no technicians or crews of its own.</p>"
+  - q: "Are the pool companies you connect me with licensed or insured?"
+    a: "<p>The line does not check, and it never claims that any company is licensed, insured, certified or rated. Each company is independent. Ask the company for its Arizona Registrar of Contractors (ROC) license number before repair, equipment, leak or resurfacing work, look it up on the ROC contractor search, and ask for proof of insurance if that matters to you.</p>"
+  - q: "Why are there no reviews or ratings on this site?"
+    a: "<p>Because the line does not do the work, it has no customer jobs to be reviewed, and it will not publish made-up ones. To judge a pool company, read its own reviews on independent sites and check its record on the ROC contractor search, which can show complaints. The <a href=\"/choosing-a-pool-company/\">guide to choosing a pool company</a> explains how.</p>"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Why this line exists</h2>
+      <p class="lead">Finding a pool company in a hurry is harder than it should be. You search, you get a wall of ads, you leave voicemails, and the pool keeps turning greener while you wait.</p>
+      <p>Phoenix Pool Cleaning Pro is a simple fix for that: one free number, answered by an automated assistant at any hour, that transfers you to an independent, locally owned pool service company working in your part of the Valley. One number covers weekly cleaning, green pool cleanups, pumps, filters, heaters, tile, leaks and resurfacing, from Anthem to Maricopa and from Buckeye to Apache Junction.</p>
+      <p>Alongside the phone line, this site publishes guides written for desert pools: what hard water does to tile and heaters, how monsoon dust affects the filter, what pool service tends to cost, and how to check a contractor before you sign. Every guide lists its sources so you can check them.</p>
+    </div>
+    {{ img('pool/chem-wide.jpg', 'Two white pool chemical jugs and a test cup on a pool deck at sunset with lounge chairs behind', 1200, 500) }}
+  </div>
+</section>
+
+<section class="band band--tint">
+  <div class="wide">
+    <h2>What makes the line different</h2>
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Free to call</h3>
+        <p>You never pay the line anything. Any price you hear comes from the pool company, which bills you directly.</p>
+      </div>
+      <div class="panel">
+        <h3>Answered 24/7</h3>
+        <p>An automated assistant picks up every call, day and night, weekends and holidays. When the company is tied up, it gets your details and returns the call.</p>
+      </div>
+      <div class="panel">
+        <h3>Local company first</h3>
+        <p>The call goes to an independent, locally owned Phoenix-area pool company, which hears a short summary of the problem before it picks up.</p>
+      </div>
+      <div class="panel">
+        <h3>Help checking who you hire</h3>
+        <p>The site explains which pool work generally needs an Arizona ROC license and how to look a company up on the ROC contractor search, so you can check before work starts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>What the line will never claim</h2>
+  <p>Plenty of pool websites are full of badges and promises. This one is not, on purpose. Because Phoenix Pool Cleaning Pro does not do pool work, it will never tell you that it cleans or repairs pools, that it has technicians or trucks, or that it holds a license. It will never say the companies it connects you with are licensed, insured, certified or highly rated, because it does not verify those things. It does not publish reviews, invent prices, or name the companies it works with.</p>
+  <p>What it will do is tell you plainly how the arrangement works: the companies may pay the line a referral fee for calls, and that is disclosed in the footer of every page. The <a href="/terms.html">terms of use</a> and <a href="/privacy-policy.html">privacy policy</a> spell out the rest.</p>
+  {{ img('pool/vac-wide.jpg', 'A robotic pool cleaner moving across the sunlit floor of a clear pool', 1200, 500) }}
+  <h2>Who runs it</h2>
+  <p>Phoenix Pool Cleaning Pro is a d/b/a of Dominion Digital Group. The business address is not published because there is no office to visit: everything happens on the phone with the pool company you are connected to. The fastest way to reach the line is to call {{ site.business.phone_display }}.</p>
+  {{ m.license_check() }}
+  {{ m.disclosure() }}
+  {{ m.related(['pool-service', 'pool-cleaning-maintenance', 'pool-repair', 'guide:choosing-a-pool-company'], 'Start here') }}
+  {{ m.sources([
+    {'label': 'Arizona Registrar of Contractors: contractor search', 'url': 'https://roc.az.gov/contractor-search'}
+  ]) }}
+</section>
+{% endblock %}
