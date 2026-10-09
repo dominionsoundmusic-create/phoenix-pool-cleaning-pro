@@ -17,89 +17,9 @@ right third of frame, well lit.
 Suggested order: the 1920x1080 heroes first (they show on screen straight away), then the
 in-body images page by page.
 
-Total: 20 images.
+Total: 10 images.
 
-## 1. glendale-equipment-pad-wall.jpg
-
-- Size: 1200x800 px
-- Page(s): /glendale-pool-service
-- Alt text: Pool pump and filter on a concrete pad beside a block wall and gravel landscaping behind a Glendale home
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A tidy pool equipment pad on the right side of the frame: a pump, a tall tan filter tank and white plumbing on a concrete pad beside a tan block wall in a West Valley Phoenix-area backyard. Gravel desert landscaping, a small palo verde tree, the edge of a blue pool and stucco house wall at left, bright afternoon sun and clear sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
-
-## 2. goodyear-estrella-pool.jpg
-
-- Size: 1200x800 px
-- Page(s): /goodyear-pool-service
-- Alt text: A backyard pool in a newer Estrella neighborhood of Goodyear with desert hills behind the block wall
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A clear rectangular backyard pool with a small sun shelf and a sheer descent water feature behind a newer stucco home, a tan block wall topped with a wrought iron view fence, desert landscaping with gravel, a young mesquite tree and desert spoon plants, rocky brown desert hills close behind the neighborhood, bright late morning sun and a deep blue sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
-
-## 3. drain-pool-sewer-cleanout-hose.jpg
-
-- Size: 1200x800 px
-- Page(s): /how-often-to-drain-pool-arizona/
-- Alt text: A flat discharge hose running from a backyard pool to a sewer cleanout cap beside a stucco house
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a flat blue discharge hose running across gravel landscaping from a backyard pool to an open black sewer cleanout cap in the ground beside a tan stucco house wall in a Phoenix-area backyard, a small potted cactus and a block wall nearby, clear morning light, realistic photo, no text, no logos, no house numbers, no recognizable faces
-
-## 4. laveen-field-edge-backyard.jpg
-
-- Size: 1200x800 px
-- Page(s): /laveen-pool-service
-- Alt text: Backyard pool behind a newer Laveen home with a block wall, and an open farm field beyond
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A clean backyard pool with a tan travertine deck and blue waterline tile behind a newer single-story stucco home in Laveen, Phoenix, Arizona. Beyond the tan block wall lies a flat farm field with irrigation rows, a line of tall old cottonwood trees and the rocky outline of South Mountain to the east. Gravel landscaping, a small citrus tree in the corner, bright afternoon sun with a few white clouds. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
-
-## 5. litchfield-park-palm-citrus-pool.jpg
-
-- Size: 1200x800 px
-- Page(s): /litchfield-park-pool-service
-- Alt text: Palm fronds and orange tree leaves near the edge of a backyard pool in Litchfield Park
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. The edge of a clear backyard pool with a few fallen palm fronds and orange leaves on the deck, a mature orange tree with ripe fruit and the trunks of tall fan palms behind a painted block wall, an older ranch-style home with a covered porch, bright afternoon sun and a clear blue sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
-
-## 6. maricopa-new-subdivision-pool.jpg
-
-- Size: 1200x800 px
-- Page(s): /maricopa-pool-service
-- Alt text: Newly finished backyard pool behind a two-story home in a Maricopa subdivision, with crushed granite and young trees
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A newly finished freeform backyard pool with a gray pebble interior and a travertine deck behind a two-story tan stucco home in a newer subdivision in Maricopa, Arizona. Fresh crushed granite, small newly planted palo verde and desert willow trees still staked, a tan block wall with the rooftops of matching homes beyond it. Flat terrain, wide pale blue sky, bright midday sun. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
-
-## 7. mesa-eastside-pool-mountains.jpg
-
-- Size: 1200x800 px
-- Page(s): /mesa-pool-service
-- Alt text: Backyard pool and tile-roof home on the east side of Mesa with desert mountains on the horizon
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A rectangular backyard pool with a tanning ledge behind a newer single-story stucco home with a concrete tile roof on the east side of Mesa, Arizona, a tan block wall, decomposed granite, desert spoon plants and a young palo verde tree. The jagged desert mountains east of the Valley sit on the far horizon. Bright midday sun, clear blue sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
-
-## 8. monsoon-dust-pool-skimmer.jpg
-
-- Size: 1200x800 px
-- Page(s): /monsoon-pool-care/
-- Alt text: Dust film and leaves floating near a pool skimmer after a desert storm
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a backyard pool the morning after a desert dust storm, a thin film of tan dust and scattered palo verde leaves floating near the skimmer opening, clear blue sky returning, block wall and gravel landscaping behind, realistic photo, no text, no logos, no house numbers, no recognizable faces
-
-## 9. north-phoenix-backyard-pool.jpg
-
-- Size: 1200x800 px
-- Page(s): /north-phoenix-pool-service
-- Alt text: Rectangular pool behind a single-story stucco home with a tile roof and a block wall in North Phoenix
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A rectangular backyard pool with a pebble finish and a raised stone water feature on the right third of the frame, behind a single-story tan stucco ranch home with a brown tile roof in North Phoenix. A block wall with a tall citrus tree in the corner, gravel and desert shrubs, a mesquite tree shading part of the deck, and a dry desert ridge visible beyond the wall in bright midday sun. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
-
-## 10. paradise-valley-acre-lot-pool.jpg
-
-- Size: 1200x800 px
-- Page(s): /paradise-valley-pool-service
-- Alt text: Backyard pool on a large Paradise Valley lot with mature mesquite trees, a lawn edge and Mummy Mountain behind
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A rectangular backyard pool with a dark tile line and flagstone coping on the right side of the frame, on a wide Paradise Valley, Arizona lot with a low stucco home, a ramada, mature mesquite trees, a few citrus trees and a strip of desert gravel with agave. The rocky slopes of Mummy Mountain rise behind the yard under a bright clear afternoon sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
-
-## 11. peoria-new-build-pool-yard.jpg
+## 1. peoria-new-build-pool-yard.jpg
 
 - Size: 1200x800 px
 - Page(s): /peoria-pool-service
@@ -107,7 +27,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A newly finished backyard in a master-planned community in the northern Phoenix-area desert: a rectangular pool with pale gray plaster and bright blue water on the right, a fresh travertine deck, young palo verde and mesquite trees still small, clean gravel landscaping, a two-story cream stucco home with a concrete tile roof, a view fence and open desert hills behind under a clear sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 12. pool-leak-repair-crack.jpg
+## 2. pool-leak-repair-crack.jpg
 
 - Size: 1200x800 px
 - Page(s): /pool-leak-repair/
@@ -115,7 +35,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a thin crack running across the white plaster wall of a partly drained backyard pool, blue waterline tile above, flagstone deck, desert landscaping and a tan stucco block wall behind in bright Phoenix-area sunlight, realistic photo, no text, no logos, no house numbers, no recognizable faces
 
-## 13. pool-pump-strainer-lid.jpg
+## 3. pool-pump-strainer-lid.jpg
 
 - Size: 1200x800 px
 - Page(s): /pump-repair
@@ -123,7 +43,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a hand lifting the clear lid off a residential pool pump strainer pot, a basket with a few leaves visible inside, gray plumbing and a tan stucco wall behind, bright Phoenix sunlight, realistic photo, no text, no logos, no house numbers, no recognizable faces
 
-## 14. queen-creek-pool-citrus-farmland.jpg
+## 4. queen-creek-pool-citrus-farmland.jpg
 
 - Size: 1200x800 px
 - Page(s): /queen-creek-pool-service
@@ -131,7 +51,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A clean free-form backyard pool with a small spa on the right third of the frame behind a newer two-story sand-colored stucco home in Queen Creek, Arizona. A row of young orange trees along a tan block wall, gravel desert landscaping with a mesquite tree, and beyond the wall a flat green field and pecan trees with the San Tan Mountains on the horizon, bright midday light and a deep blue sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 15. san-tan-valley-mountain-view-pool.jpg
+## 5. san-tan-valley-mountain-view-pool.jpg
 
 - Size: 1200x800 px
 - Page(s): /san-tan-valley-pool-service
@@ -139,7 +59,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A backyard pool with a light blue waterline tile and a covered patio with ceiling fans behind a single-story tan stucco home in a San Tan Valley, Arizona subdivision. Desert gravel, a young mesquite tree, a row of red yucca along a tan block wall. The rocky, saguaro-studded San Tan Mountains fill the horizon. Bright, clear late afternoon light. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 16. scottsdale-foothills-backyard-pool.jpg
+## 6. scottsdale-foothills-backyard-pool.jpg
 
 - Size: 1200x800 px
 - Page(s): /scottsdale-pool-service
@@ -147,7 +67,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A rectangular backyard pool with dark blue tile and a stone coping on the right side of the frame, behind a single-story sand-colored stucco home with a covered patio in the north Scottsdale foothills, Arizona. Native Sonoran desert beyond a low view fence: saguaros, palo verde, creosote bushes and granite boulders, with the McDowell Mountains in bright late afternoon light under a clear sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 17. sun-city-patio-pool-shade.jpg
+## 7. sun-city-patio-pool-shade.jpg
 
 - Size: 1200x800 px
 - Page(s): /sun-city-pool-service
@@ -155,7 +75,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A small rectangular private pool with a stainless handrail at the shallow-end steps on the right side of the frame, beside a shaded patio with a ceiling fan behind a single-story white stucco ranch-style home in an older Phoenix-area retirement community. Gravel landscaping, a lemon tree, a low block wall, a pool alarm sensor on the deck edge, bright morning light. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 18. surprise-pool-hose-refill.jpg
+## 8. surprise-pool-hose-refill.jpg
 
 - Size: 1200x800 px
 - Page(s): /surprise-pool-service
@@ -163,7 +83,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A green garden hose lying over a pool coping edge, topping off a clear backyard pool in a newer West Valley neighborhood, a tan block wall behind with a few desert shrubs, decomposed granite and a young mesquite tree, bright midday sun and a clear sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 19. tempe-backyard-citrus-pool.jpg
+## 9. tempe-backyard-citrus-pool.jpg
 
 - Size: 1200x800 px
 - Page(s): /tempe-pool-service
@@ -171,7 +91,7 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A small kidney-shaped backyard pool in an established Tempe, Arizona neighborhood, with a weathered cool deck, a tan block wall, a mature orange tree heavy with fruit, a mesquite tree and gravel desert landscaping. A covered patio with a ceiling fan at the left edge. Bright late morning sun, clear sky. Realistic photo, no text, no logos, no house numbers, no recognizable faces.
 
-## 20. tile-cleaning-waterline-scale.jpg
+## 10. tile-cleaning-waterline-scale.jpg
 
 - Size: 1200x800 px
 - Page(s): /tile-cleaning
