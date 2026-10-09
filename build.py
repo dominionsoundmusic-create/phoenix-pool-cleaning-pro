@@ -136,6 +136,9 @@ class Builder:
         self.out = out
         self.write_docs = write_docs
         self.site = json.loads((SRC / "data" / "site.json").read_text())
+        # The phone number lives once, in business.phone_display; labels refer to it as {phone}.
+        self.site["cta"]["primary_label"] = self.site["cta"]["primary_label"].replace(
+            "{phone}", self.site["business"]["phone_display"])
         self.missing_images = {}  # filename -> dict
         alias_file = SRC / "data" / "image-aliases.json"
         self.aliases = json.loads(alias_file.read_text()) if alias_file.exists() else {}

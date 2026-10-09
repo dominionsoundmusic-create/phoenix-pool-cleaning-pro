@@ -26,7 +26,7 @@
   "license_lookup_url": "https://roc.az.gov/contractor-search"
  },
  "cta": {
-  "primary_label": "Call (623) 240-0428",
+  "primary_label": "Call {phone}",
   "secondary_label": "How the free line works",
   "secondary_href": "/how-it-works/"
  },
@@ -269,7 +269,7 @@
    "name": "Scottsdale",
    "city": "Scottsdale",
    "group": "north",
-   "summary": ""
+   "summary": "Scottsdale Water delivers mostly CAP and SRP surface water, with hardness from 16 grains per gallon north to 25 in the south."
   },
   {
    "slug": "paradise-valley",
@@ -317,7 +317,7 @@
    "name": "Tempe",
    "city": "Tempe",
    "group": "east",
-   "summary": ""
+   "summary": "Tempe draws about 87 percent of its water from the Salt and Verde rivers, and requires five foot pool fences by city code."
   },
   {
    "slug": "mesa",
@@ -325,7 +325,7 @@
    "name": "Mesa",
    "city": "Mesa",
    "group": "east",
-   "summary": ""
+   "summary": "Mesa sorts tap water hardness by zone, about 12 to 16 grains on average, and wants pools drained to the sewer cleanout."
   },
   {
    "slug": "chandler",
@@ -333,7 +333,7 @@
    "name": "Chandler",
    "city": "Chandler",
    "group": "east",
-   "summary": ""
+   "summary": "Chandler blends Salt, Verde and Colorado River water with groundwater, averaging 16.5 grains of hardness, and grew from 30,000 people in 1980."
   },
   {
    "slug": "gilbert",
@@ -405,7 +405,7 @@
    "name": "Surprise",
    "city": "Surprise",
    "group": "west",
-   "summary": ""
+   "summary": "Surprise runs its own water utility while EPCOR serves some addresses, and city rules keep drained pool water off streets."
   },
   {
    "slug": "sun-city",
@@ -437,7 +437,7 @@
    "name": "Avondale",
    "city": "Avondale",
    "group": "west",
-   "summary": ""
+   "summary": "Avondale blends Colorado River water delivered through Phoenix with city well water, so mineral levels at the tap can shift."
   },
   {
    "slug": "buckeye",
@@ -445,7 +445,7 @@
    "name": "Buckeye",
    "city": "Buckeye",
    "group": "west",
-   "summary": ""
+   "summary": "Buckeye's city water comes only from wells in the Hassayampa sub-basin, and three different providers serve parts of the city."
   },
   {
    "slug": "laveen",

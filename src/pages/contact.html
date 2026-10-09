@@ -1,0 +1,59 @@
+---
+type: contact
+title: "Contact Phoenix Pool Cleaning Pro | Free 24/7 Pool Line"
+description: "Reach Phoenix Pool Cleaning Pro by phone at any hour. The free line answers 24/7 and connects you with an independent local pool service company."
+h1: "Contact the Phoenix Pool Line"
+crumb: "Contact"
+hero:
+  image: pool/hero-2.jpg
+  alt: "A free-form turquoise pool with a flagstone deck and boulder edge beside an adobe-style covered patio, palms and mountains"
+  lead: "This site is phone only. Call any hour and an automated assistant answers, asks briefly what the pool needs, and puts you through to an independent local pool company."
+  secondary_label: "What happens on the call"
+  secondary_href: "/how-it-works/"
+cta_title: "The quickest way to help is a phone call"
+faqs:
+  - q: "Is there an email address or contact form?"
+    a: "<p>No. The line is phone only, so nothing gets lost in an inbox. Call and you are either transferred to a local pool company right away or, if it cannot pick up, your details are passed along for a call back.</p>"
+  - q: "What hours can I call?"
+    a: "<p>Any hour. An automated assistant answers 24 hours a day, 7 days a week, including holidays. The pool company you reach sets its own hours for visits.</p>"
+  - q: "I already hired a company through the line and have a problem with the work. Who do I contact?"
+    a: "<p>Contact the pool company directly, since it did the work and billed you. If the dispute is about contractor work and you cannot resolve it, the Arizona Registrar of Contractors accepts complaints against contractors, and its contractor search shows a company's license and complaint history.</p>"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Call {{ site.business.phone_display }}</h2>
+      <p class="lead">One number for weekly cleaning, green pools, pumps, filters, heaters, tile, leaks and resurfacing anywhere in the Phoenix metro.</p>
+      <p><a class="btn btn--orange btn--big" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+      <ul class="facts">
+        <li><strong>Hours</strong>Answered 24 hours a day, 7 days a week by an automated assistant</li>
+        <li><strong>Cost to call</strong>Free. You never pay the line</li>
+        <li><strong>Who you reach</strong>An independent, locally owned pool service company</li>
+        <li><strong>Area</strong>Phoenix and 25 towns and neighborhoods across the Valley</li>
+      </ul>
+    </div>
+    {{ img('pool/brush-wide.jpg', 'A hand pushing a blue pool brush along the floor of a clear pool', 1200, 500) }}
+  </div>
+</section>
+
+<section class="band band--tint">
+  <div class="wide">
+    <h2>Why phone only?</h2>
+    <p class="section-intro">A form puts you in a queue. A call puts you on the line with a pool company, usually in a minute or two, and if it cannot pick up, it gets your details for a call back. That is the whole idea of the line.</p>
+    {{ m.how_it_works_short() }}
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Not sure what to say? Start with what you see</h2>
+  <p>You do not need pool vocabulary. "The water turned green after the storm," "the pump hums but nothing moves," or "the heater clicks and shuts off" is plenty. If the pump or heater is making a burning smell or tripping a breaker, turn it off at the controller or breaker and leave it off until a technician looks. If you smell gas near the heater, get away from it first and call 911 and Southwest Gas from a safe place.</p>
+  {{ img('pool/green-wide.jpg', 'A neglected backyard pool with green water and leaves floating on the surface', 1200, 500) }}
+  <p>Have a question before you call? The <a href="/faq/">FAQ</a> answers the common ones, and the <a href="/services/">services page</a> explains each kind of job.</p>
+  {{ m.disclosure() }}
+  {{ m.sources([
+    {'label': 'Arizona Registrar of Contractors: contractor search and complaints', 'url': 'https://roc.az.gov/contractor-search'},
+    {'label': 'Southwest Gas: Report a Leak', 'url': 'https://www.swgas.com/en/report-a-leak'}
+  ]) }}
+</section>
+{% endblock %}

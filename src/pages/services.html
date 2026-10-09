@@ -1,0 +1,88 @@
+---
+type: page
+title: "Pool Service and Repair in Phoenix | Every Service, One Line"
+description: "Pool service and repair in Phoenix: weekly cleaning, green pools, pumps, filters, heaters, tile, leaks and resurfacing, through one free line to a local company."
+h1: "Pool Service and Repair in Phoenix"
+crumb: "Services"
+keyword: "pool service and repair phoenix"
+hero:
+  image: services-hero.jpg
+  alt: "A pool technician's leaf net and brush beside a clear backyard pool with an equipment pad along a stucco wall"
+  desc: "Wide cinematic landscape shot, subject positioned on right third of frame, well lit. A Phoenix-area backyard in bright morning sun: a tidy pool equipment pad with a pump, a filter tank and a heater against a tan stucco wall at the right third, a leaf net and a pool brush leaning against the wall, a clear turquoise pool in the foreground, gravel landscaping with a palo verde tree, blue sky on the calm left side. Realistic photo, no text, no logos, no house numbers, no recognizable faces."
+  fallback: pool/hero-3.jpg
+  fallback_alt: "A long rectangular pool with a row of white lounge chairs, palms, desert trees and distant mountains"
+  lead: "Weekly cleaning, green pool cleanups, pumps, filters, heaters, tile, leaks and resurfacing. One free call reaches an independent, locally owned pool company that handles the job and prices it itself."
+  secondary_label: "Match your problem to a service"
+  secondary_href: "#match"
+cta_title: "Know what the pool needs? Call the free line"
+faqs:
+  - q: "Can one company handle both weekly cleaning and repairs?"
+    a: "<p>Many pool service companies do both, while some only clean and some only repair or resurface. When you are put through, say everything you need so the company can tell you what it handles. For repair work, ask for its Arizona ROC license number and look it up.</p>"
+  - q: "Do you handle public or HOA community pools?"
+    a: "<p>The line is set up for home pools. It does not provide information about public pools or aquatic centers. Commercial and community pools have their own health rules and permits, so ask the company directly whether it takes that kind of work.</p>"
+  - q: "Does the line build new pools or install fences?"
+    a: "<p>No. Building new pools, pool fencing, landscaping and pest control are outside what the line connects callers with. For an existing pool's surface, see <a href=\"/pool-resurfacing/\">pool resurfacing</a>.</p>"
+  - q: "What if I do not know which service I need?"
+    a: "<p>Call and describe what you see and hear. The assistant passes that along, and the pool company you reach can tell you whether it sounds like cleaning, a filter, the pump or something else, then confirm it in person.</p>"
+---
+{% block content %}
+<section class="prose">
+  <p class="lead">Pool service and repair in Phoenix covers two kinds of work: keeping the water clean and balanced every week, and fixing the equipment and surfaces that heat, sun, hard water and dust wear out. Both are handled by the independent pool company you reach through the line, never by the line itself.</p>
+  <p>Below, every service has its own page explaining what the job involves, what a careful pool technician checks and what to ask before you approve the work. If you are not sure where to start, the table matches common problems to the right page.</p>
+</section>
+
+<section class="prose" id="match">
+  <h2>Match the problem to the right page</h2>
+  <div class="table-wrap">
+    <table>
+      <caption class="sr">Common pool problems and the page that covers each</caption>
+      <thead><tr><th scope="col">What you see or hear</th><th scope="col">Where to start</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">You want someone to take care of the pool every week</th><td><a href="/pool-service/">Pool service</a> and <a href="/pool-cleaning-maintenance">pool cleaning and weekly maintenance</a></td></tr>
+        <tr><th scope="row">Green, cloudy or swampy water</th><td><a href="/green-pool-cleanup/">Green pool cleanup</a>; the cause is in <a href="/why-is-my-pool-green/">why is my pool green</a></td></tr>
+        <tr><th scope="row">Pump hums, screams, leaks or will not prime</th><td><a href="/pump-repair">Pool pump repair</a></td></tr>
+        <tr><th scope="row">Filter pressure high, weak returns, dirty water after a dust storm</th><td><a href="/pool-filter-cleaning/">Pool filter cleaning</a></td></tr>
+        <tr><th scope="row">Heater will not light or heats slowly</th><td><a href="/pool-heater-repair/">Pool heater repair</a></td></tr>
+        <tr><th scope="row">Timer, automation, salt cell, light or water feature trouble</th><td><a href="/pool-equipment-repair/">Pool equipment repair</a></td></tr>
+        <tr><th scope="row">Water level dropping faster than it should</th><td><a href="/pool-leak-repair/">Pool leak and crack repair</a></td></tr>
+        <tr><th scope="row">White crust at the waterline</th><td><a href="/tile-cleaning">Pool tile cleaning</a></td></tr>
+        <tr><th scope="row">Rough, stained or flaking plaster</th><td><a href="/pool-resurfacing/">Pool resurfacing</a> and <a href="/repair-or-resurface-pool/">repair or resurface</a></td></tr>
+        <tr><th scope="row">Several problems, or not sure</th><td><a href="/pool-repair">Pool repair</a>, which starts with a diagnosis</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="band band--tint">
+  <div class="wide">
+    <h2>Cleaning and water care</h2>
+    <p class="section-intro">Routine work that keeps the water clear and safe through Phoenix heat, sun and dust. In Arizona this is generally not treated as contracting work, so it usually does not call for an ROC license.</p>
+    {{ m.service_cards(['pool-service', 'pool-cleaning-maintenance', 'pool-filter-cleaning', 'green-pool-cleanup', 'tile-cleaning']) }}
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Repairs, equipment and surfaces</h2>
+  <p>Equipment pads in the Valley sit in direct sun all summer, and hard water leaves scale inside heaters and salt cells. These pages cover the repair side. For this work, ask the company for its Arizona ROC license number and check it before the job starts.</p>
+  {{ m.service_cards(['pool-repair', 'pump-repair', 'pool-equipment-repair', 'pool-heater-repair', 'pool-leak-repair', 'pool-resurfacing']) }}
+  {{ img('pool/repair-wide.jpg', 'Two hands turning a wrench on an old cast pool pump in a workshop', 1200, 500) }}
+</section>
+
+<section class="prose">
+  <h2>Guides that help you decide</h2>
+  <div class="split">
+    <div>
+      <p>Before you call, or after a company gives you a quote, these guides explain costs, schedules and the decisions pool owners in the Valley face most often. Each one lists its sources.</p>
+      <p>What the line does not connect callers with: building new pools, pool fencing installation, landscaping, pest control, and public pool or aquatic center information.</p>
+    </div>
+    {{ img('pool/chem-wide.jpg', 'Two white pool chemical jugs and a test cup on a pool deck at sunset', 1200, 500) }}
+  </div>
+  {{ m.guide_cards() }}
+  {{ m.license_check() }}
+  {{ m.disclosure() }}
+  {{ m.sources([
+    {'label': 'Arizona Registrar of Contractors: contractor search', 'url': 'https://roc.az.gov/contractor-search'},
+    {'label': 'Arizona Administrative Code R4-9-103: residential contractor license classifications (R-6 Swimming Pool Service and Repair)', 'url': 'https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R4-9-103'}
+  ]) }}
+</section>
+{% endblock %}

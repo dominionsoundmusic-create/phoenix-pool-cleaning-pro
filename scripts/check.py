@@ -38,7 +38,7 @@ BANNED = [
     r"\bfree estimates?\b", r"\bbest (?:prices?|rates?)\b", r"\blowest price", r"\bcheapest\b",
     r"\bchemicals included\b", r"\bflat monthly price\b",
     # DIY chemical mixing, gas and electrical work
-    r"\bmix (?:the |your |two |different )?(?:pool )?chemicals together\b(?! is)", r"\badd (?:the )?water to (?:the )?acid\b",
+    r"(?<!never )(?<!not )(?<!t )\bmix (?:the |your |two |different )?(?:pool )?chemicals together\b(?! is)", r"\badd (?:the )?water to (?:the )?acid\b",
     r"\bhow to (?:relight|light) (?:the|a|your) (?:pool )?heater\b", r"\brelight (?:the|your) pilot\b",
     r"\bopen (?:the|your) (?:electrical )?panel cover\b", r"\bwire (?:the|a|your) (?:pump|heater|light)\b",
     # filler phrases banned in CLAUDE.md
