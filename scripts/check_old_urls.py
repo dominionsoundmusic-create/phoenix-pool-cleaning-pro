@@ -50,13 +50,6 @@ def served(url, dist):
     return p.is_file() or (dist / (url.lstrip("/") + ".html")).exists()
 
 
-f served(url, dist):
-    p = dist / url.lstrip("/")
-    if url.endswith("/"):
-        return (p / "index.html").exists()
-    return p.exists()
-
-
 def rules(dist):
     out = []
     for line in (dist / "_redirects").read_text().splitlines():
