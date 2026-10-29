@@ -29,8 +29,11 @@ reversed later.
    retired posts on green pools and summer algae to /why-is-my-pool-green/, on desert heat and dust to
    /monsoon-pool-care/, on what weekly service includes to /pool-service/, on DIY equipment repairs to
    /pool-equipment-repair/. The old contact form had no thank-you URL, so no rule was needed.
-5. **Phone only.** The old Netlify contact form is retired; /contact/ is a phone page. check.py fails any
-   `<form>`.
+5. **Phone first, plus one form (changed Oct 29 2026).** Maurice asked for a quote form with a "What do
+   you need?" dropdown so he gets a text with the visitor's need. /contact/ has the Netlify form
+   `phoenix-pool-contact` (fields name, phone, email, city, need, message) posting to /contact/thanks/
+   (noindex). netlify/functions/submission-created.mjs sends the text. check.py requires the form and
+   its fields on /contact/ and fails a `<form>` anywhere else. The call stays the main way in.
 6. **Phone number in one place.** (623) 240-0428 lives only in src/data/site.json (`phone_display`,
    `phone_tel`); the call button label is built from it (`Call {phone}`), and pages use
    `{{ site.business.phone_display }}`.

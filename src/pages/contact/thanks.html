@@ -1,0 +1,18 @@
+---
+type: page
+title: "Request Received | Phoenix Pool Cleaning Pro"
+description: "Thank you. Your pool service request was received and is being passed to an independent local pool company, which should call you back soon."
+h1: "Thank You, Your Request Is In"
+crumb: "Request received"
+noindex: true
+lead: "Your request was received. It is being passed to an independent, locally owned pool service company that works in your area, and that company should call you back."
+cta: false
+---
+{% block content %}
+<section class="prose">
+  <p>Keep your phone handy, since the call may come from a number you do not recognize. The pool company you hear from sets its own price and schedule, and whether you hire it is your choice.</p>
+  <p>Anything urgent, such as a pump that is smoking or a pool that is losing water fast? Do not wait for the call back. Call the free line now at <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a>, answered 24 hours a day.</p>
+  <p><a class="btn btn--orange" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+  <p>While you wait, the <a href="/how-it-works/">how it works page</a> explains what happens next, and the <a href="/choosing-a-pool-company/">guide to choosing a pool company</a> lists what to ask. <a href="/">Back to the home page</a>.</p>
+</section>
+{% endblock %}

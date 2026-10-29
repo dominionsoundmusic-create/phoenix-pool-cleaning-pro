@@ -124,6 +124,8 @@ class PageParser(HTMLParser):
 
 
 FLAT = {"/privacy-policy.html", "/terms.html", "/404.html"}
+# pages with no hero/in-body image or FAQ requirement (the thank-you page is noindex, like 404)
+EXEMPT = ("/404.html", "/privacy-policy.html", "/terms.html", "/contact/thanks/")
 
 
 def url_of(path, dist):
@@ -191,8 +193,15 @@ def main():
         for mt in re.finditer(r"[^.]*\byourself\b[^.]*\.", visible, re.I):
             if re.search(r"acid|chlorine|shock|chemical|gas valve|gas line|breaker panel|wiring|pilot|heater|motor", mt.group(0), re.I):
                 warn(f"check this is not DIY advice: {mt.group(0).strip()[:160]}")
-        if "<form" in raw:
-            err("form found (site is phone only)")
+        # Oct 29 2026: the contact page carries the one quote form; no other page may have a form.
+        if url == "/contact/":
+            for need in ('name="phoenix-pool-contact"', 'data-netlify="true"', 'name="form-name" value="phoenix-pool-contact"',
+                         'name="name"', 'name="phone"', 'name="email"', 'name="city"', 'name="need"', 'name="message"',
+                         'action="/contact/thanks/"', 'name="bot-field"'):
+                if need not in raw:
+                    err(f"contact form missing {need}")
+        elif "<form" in raw:
+            err("form found outside the contact page")
         if re.search(r'class="[^"]*(?:eyebrow|kicker|overline|badge)', raw):
             err("eyebrow/badge label found")
         if QUOTE not in raw.replace("&#39;", "'").replace("&rsquo;", "'"):
@@ -233,7 +242,7 @@ def main():
         pending = re.findall(r"<!-- image pending .*?-->(<figure)?", raw)
         figs = raw.count('<figure class="fig') + sum(1 for g in pending if not g)
         has_hero = '<section class="hero ' in raw
-        if url not in ("/404.html", "/privacy-policy.html", "/terms.html") and (not has_hero or figs < 2):
+        if url not in EXEMPT and (not has_hero or figs < 2):
             err(f"needs a hero and at least two in-body images (hero={has_hero}, body images={figs})")
         for k in ("og:title", "og:description", "og:url", "og:image"):
             if not p.meta.get(k):
@@ -260,7 +269,7 @@ def main():
         if visible_faq != faq_count:
             err(f"visible FAQ items ({visible_faq}) != FAQPage entries ({faq_count})")
         max_faq = 6
-        if url not in ("/404.html", "/privacy-policy.html", "/terms.html"):
+        if url not in EXEMPT:
             if not (3 <= visible_faq <= max_faq):
                 err(f"page needs 3 to 6 common questions, has {visible_faq}")
             if 'id="faq-title">Common questions<' not in raw:

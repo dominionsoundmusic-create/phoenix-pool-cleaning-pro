@@ -64,10 +64,11 @@ FOOTER OF EVERY PAGE: "© 2026 Dominion Digital Group. All rights reserved." and
 LANGUAGE: EN / ES toggle in the header.
 
 5. CALLS TO ACTION
-MAIN CTA: Call the phone number. THE SITE IS PHONE ONLY. Retire the old contact form (the same
-  choice made on the Houston and Dallas rebuilds): /contact/ becomes a phone page. If an old form
-  thank-you URL exists, 301 it to /contact/.
-SECONDARY CTA: a real page (How it works, a guide). Never a form.
+MAIN CTA: Call the phone number.
+  (Updated Oct 29 2026, Maurice's request: /contact/ also has one short quote form,
+  "phoenix-pool-contact", with a "What do you need?" dropdown, thank-you page /contact/thanks/.
+  No other page has a form.)
+SECONDARY CTA: a real page (How it works, a guide).
 
 6. SOCIAL PROFILES
 None. Icon slots are data-driven and stay hidden until URLs are added.

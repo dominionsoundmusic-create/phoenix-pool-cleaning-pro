@@ -96,5 +96,6 @@
 /blog/*  /  301
 /blog  /  301
 
-# Oct 8 2026 - the old contact form is retired (the site is phone only). It had no thank-you page.
+# Oct 29 2026 - the contact page has a quote form again (phoenix-pool-contact). Its thank-you page,
+# /contact/thanks/, is a real page, so there is no rule for it here.
 # Old index.html and folder index files resolve to their pages without rules.
